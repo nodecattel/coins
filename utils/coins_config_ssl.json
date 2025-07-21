@@ -26909,7 +26909,6 @@
             {
                 "url": "electrumx.nvc.ewmcx.org:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "coins@ewmci.com"
@@ -26931,7 +26930,6 @@
             {
                 "url": "failover.nvc.ewmcx.biz:50002",
                 "protocol": "SSL",
-                "disable_cert_verification": true,
                 "contact": [
                     {
                         "email": "coins@ewmci.com"
