@@ -8,6 +8,10 @@
     "protocol": "TCP"
   },
   {
+    "url": "electrumx3.briskcoin.org:50001",
+    "protocol": "TCP"
+  },
+  {
       "url": "electrumx1.briskcoin.org:50002",
       "protocol": "SSL",
       "ws_url": "electrumx1.briskcoin.org:50003"
@@ -16,5 +20,10 @@
       "url": "electrumx2.briskcoin.org:50002",
       "protocol": "SSL",
       "ws_url": "electrumx2.briskcoin.org:50003"
+  },
+  {
+      "url": "electrumx3.briskcoin.org:50002",
+      "protocol": "SSL",
+      "ws_url": "electrumx3.briskcoin.org:50003"
   }
 ]
