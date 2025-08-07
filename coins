@@ -4195,7 +4195,7 @@
     "name": "diminutivecoin",
     "fname": "Diminutive Coin",
     "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
-    "rpcport": 49122,
+    "rpcport": 49588,
     "pubtype": 32,
     "p2shtype": 30,
     "wiftype": 181,
@@ -4203,11 +4203,16 @@
     "txfee": 10000,
     "segwit": false,
     "mm2": 1,
-    "mature_confirmations": 75,
-    "required_confirmations": 4,
+    "mature_confirmations": 100,
+    "required_confirmations": 6,
     "avg_blocktime": 75,
     "protocol": {
       "type": "UTXO"
+    },
+    "derivation_path": "m/44'/745'",
+    "links": {
+      "github": "https://github.com/MadCatMining/DiminutiveCoin",
+      "homepage": "https://diminutivecoin.com"
     }
   },
   {
