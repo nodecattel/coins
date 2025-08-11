@@ -401,40 +401,46 @@ class CoinConfig:
             else:
                 coin = "QTUM"
 
-        if not coin in electrum_coins:
-            logger.warning(f"{coin} not found in electrum_coins")
-            return
-        with open(f"{repo_path}/electrums/{coin}", "r") as f:
-            electrums = json.load(f)
-                
-        if coin in electrum_scan_report:
-            valid_electrums = []
-            for x in ["tcp", "ssl", "wss"]:
-                # This also filers ws with tcp/ssl server it is grouped with if valid.
-                for k, v in electrum_scan_report[coin][x].items():
-                    if (
-                        current_time - v["last_connection"] < 604800
-                    ):  # 1 week grace period
-                        for electrum in electrums:
-                            electrum["protocol"] = x.upper()
-                            e = deepcopy(electrum)
-                            if "url" in e:
-                                if e["url"] == k:
-                                    if "ws_url" in e:
+        # Only process if this is actually an electrum coin
+        if coin in electrum_coins:
+            with open(f"{repo_path}/electrums/{coin}", "r") as f:
+                electrums = json.load(f)
+                    
+            if coin in electrum_scan_report:
+                valid_electrums = []
+                for x in ["tcp", "ssl", "wss"]:
+                    # This also filters ws with tcp/ssl server it is grouped with if valid.
+                    for k, v in electrum_scan_report[coin][x].items():
+                        if (
+                            current_time - v["last_connection"] < 604800
+                        ):  # 1 week grace period
+                            for electrum in electrums:
+                                electrum["protocol"] = x.upper()
+                                e = deepcopy(electrum)
+                                if "url" in e:
+                                    if e["url"] == k:
+                                        if "ws_url" in e:
+                                            del e["ws_url"]
+                                        valid_electrums.append(e)
+                                e = deepcopy(electrum)
+                                if "ws_url" in e:
+                                    e["protocol"] = "WSS"
+                                    if e["ws_url"] == k:
+                                        e["url"] = k
                                         del e["ws_url"]
-                                    valid_electrums.append(e)
-                            e = deepcopy(electrum)
-                            if "ws_url" in e:
-                                e["protocol"] = "WSS"
-                                if e["ws_url"] == k:
-                                    e["url"] = k
-                                    del e["ws_url"]
-                                    valid_electrums.append(e)
-            if len(valid_electrums) > 0:
-                valid_electrums = sort_dicts_list(valid_electrums, "url")                 
-            self.data[self.ticker].update({"electrum": valid_electrums})
-        elif self.coin_type in ["SIA"]:
-            self.data[self.ticker].update({"nodes": electrums})
+                                        valid_electrums.append(e)
+                if len(valid_electrums) > 0:
+                    valid_electrums = sort_dicts_list(valid_electrums, "url")                 
+                    self.data[self.ticker].update({"electrum": valid_electrums})
+                else:
+                    logger.warning(f"No working electrum servers found for {self.ticker}, marking as delisted")
+                    self.data[self.ticker].update({"electrum": [], "delisted": True})
+            elif self.coin_type in ["SIA"]:
+                # SIA uses static nodes list
+                self.data[self.ticker].update({"nodes": electrums})
+            else:
+                logger.warning(f"{coin} not found in electrum_scan_report!")
+        # For non-electrum coins (EVM, Tendermint), nodes are handled in get_swap_contracts()
 
     def get_swap_contracts(self):
         contract_data = None
@@ -467,8 +473,50 @@ class CoinConfig:
                 else:
                     key = "nodes"
                     
-                values = sort_dicts_list(contract_data["rpc_nodes"], "url")       
-                self.data[self.ticker].update({key: values})
+                # Filter nodes based on scan report
+                valid_nodes = []
+                if self.ticker in electrum_scan_report:
+                    for node in contract_data["rpc_nodes"]:
+                        node_url = node["url"]
+                        # Check if this node appears in the scan report as working
+                        node_found_working = False
+                        
+                        # Check in ssl section (HTTPS nodes)
+                        if node_url in electrum_scan_report[self.ticker]["ssl"]:
+                            node_data = electrum_scan_report[self.ticker]["ssl"][node_url]
+                            if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                valid_nodes.append(node)
+                                node_found_working = True
+                        
+                        # Check in wss section (WSS nodes) 
+                        if not node_found_working and "ws_url" in node:
+                            ws_url = node["ws_url"]
+                            if ws_url in electrum_scan_report[self.ticker]["wss"]:
+                                node_data = electrum_scan_report[self.ticker]["wss"][ws_url]
+                                if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                    valid_nodes.append(node)
+                                    node_found_working = True
+                        
+                        # Check in tcp section (HTTP nodes)
+                        if not node_found_working and node_url in electrum_scan_report[self.ticker]["tcp"]:
+                            node_data = electrum_scan_report[self.ticker]["tcp"][node_url]
+                            if (current_time - node_data["last_connection"] < 604800):  # 1 week grace period
+                                valid_nodes.append(node)
+                                node_found_working = True
+                                
+                        if not node_found_working:
+                            logger.warning(f"Node {node_url} for {self.ticker} not found working in scan report")
+                else:
+                    # If not in scan report, use all nodes (fallback for coins not scanned)
+                    valid_nodes = contract_data["rpc_nodes"]
+                    logger.warning(f"{self.ticker} not found in electrum_scan_report, using all configured nodes")
+                
+                if valid_nodes:
+                    values = sort_dicts_list(valid_nodes, "url")       
+                    self.data[self.ticker].update({key: values})
+                else:
+                    logger.warning(f"No working nodes found for {self.ticker}, marking as delisted")
+                    self.data[self.ticker].update({key: [], "delisted": True})
 
     def get_explorers(self):
         explorers = None
@@ -530,31 +578,39 @@ def parse_coins_repo(electrum_scan_report):
         config.get_links()
         coins_config.update(config.data)
 
-    nodata = []
+    delisted_coins = []
+    working_coins = []
     for coin in coins_config:
         if not coins_config[coin]["explorer_url"]:
             logger.warning(f"{coin} has no explorers!")
         
-        for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
-            if field in coins_config[coin]:
-                if not coins_config[coin][field]:
-                    nodata.append(coin)
-        if (
-            "nodes" not in coins_config[coin]
-            and "electrum" not in coins_config[coin]
-            and "rpc_urls" not in coins_config[coin]
-        ):
-            nodata.append(coin)
+        # Check if coin is delisted (no working nodes/electrums)
+        if coins_config[coin].get("delisted", False):
+            delisted_coins.append(coin)
+        else:
+            # Check if coin has any connection methods
+            has_connection = False
+            for field in ["nodes", "electrum", "light_wallet_d_servers", "rpc_urls"]:
+                if field in coins_config[coin]:
+                    if coins_config[coin][field]:  # Non-empty list
+                        has_connection = True
+                        break
+            
+            if has_connection:
+                working_coins.append(coin)
+            else:
+                # No working connections found, mark as delisted
+                coins_config[coin]["delisted"] = True
+                delisted_coins.append(coin)
 
-    logger.warning(
-        f"The following coins are missing required data or failing connections for nodes/electrums {nodata}"
-    )
-    logger.warning(f"They will not be included in the output")
+    logger.info(f"Working coins: {len(working_coins)}")
+    logger.warning(f"Delisted coins (no working connections): {len(delisted_coins)} - {delisted_coins}")
+    
     if errors:
         logger.error(f"Errors:")
         for error in errors:
             logger.error(error)
-    return coins_config, nodata
+    return coins_config, delisted_coins
 
 
 def get_desktop_repo_coins_data():
@@ -572,6 +628,10 @@ def get_desktop_repo_coins_data():
 def filter_ssl(coins_config):
     coins_config_ssl = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         coins_config_ssl.update({coin: coins_config[coin]})
         if "electrum" in coins_config[coin]:
             electrums = []
@@ -634,6 +694,10 @@ def filter_duplicate_domains(electrums):
 def filter_tcp(coins_config, coins_config_ssl):
     coins_config_tcp = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         coins_config_tcp.update({coin: coins_config[coin]})
         # Omit komodo_proxy: true nodes - these are web only.
         if "nodes" in coins_config[coin]:
@@ -672,6 +736,10 @@ def filter_tcp(coins_config, coins_config_ssl):
 def filter_wss(coins_config):
     coins_config_wss = {}
     for coin in coins_config:
+        # Skip delisted coins
+        if coins_config[coin].get("delisted", False):
+            continue
+            
         if "electrum" in coins_config[coin]:
             electrums = []
             for i in coins_config[coin]["electrum"]:
@@ -1095,36 +1163,40 @@ if __name__ == "__main__":
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             electrum_scan_report = json.load(f)
 
-    coins_config, nodata = parse_coins_repo(electrum_scan_report)
-    # Includes failing servers
-    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
-        json.dump(coins_config, f, indent=4)
-    generate_binance_api_ids(coins_config)
-
-    # Remove failing servers
-    for coin in nodata:
-        del coins_config[coin]
+    coins_config, delisted_coins = parse_coins_repo(electrum_scan_report)
+    # Always save the complete config (including delisted coins with empty node lists)
     with open(f"{script_path}/coins_config.json", "w+") as f:
         json.dump(coins_config, f, indent=4)
+    
+    # Also save an unfiltered version for backwards compatibility
+    with open(f"{script_path}/coins_config_unfiltered.json", "w+") as f:
+        json.dump(coins_config, f, indent=4)
+    
+    generate_binance_api_ids(coins_config)
         
     coins_config_ssl = filter_ssl(deepcopy(coins_config))
     coins_config_wss = filter_wss(deepcopy(coins_config))
     coins_config_tcp = filter_tcp(deepcopy(coins_config), coins_config_ssl)
 
+    working_coins_count = 0
     for coin in coins_config:
         r = f"{coin}: [SSL {coin in coins_config_ssl}] [TCP {coin in coins_config_tcp}] [WSS {coin in coins_config_wss}]"
-        if (
+        if coins_config[coin].get("delisted", False):
+            logger.warning(f"{coin}: [DELISTED - No working nodes]")
+        elif (
             coin in coins_config_tcp
             and coin in coins_config_ssl
             and coin in coins_config_wss
         ):
             logger.info(r)
+            working_coins_count += 1
         else:
             logger.calc(r)
-    for coin in nodata:
-        logger.warning(f"{coin}: [SSL False] [TCP False] [WSS False]")
+            working_coins_count += 1
     
     logger.info(f"\nTotal coins: {len(coins_config)}")
+    logger.info(f"Working coins: {working_coins_count}")
+    logger.info(f"Delisted coins: {len(delisted_coins)}")
     logger.info(f"Total coins with SSL: {len(coins_config_ssl)}")
     logger.info(f"Total coins with TCP: {len(coins_config_tcp)}")
     logger.info(f"Total coins with WSS: {len(coins_config_wss)}")
