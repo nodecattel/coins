@@ -20220,6 +20220,15 @@
         "derivation_path": "m/44'/192'",
         "electrum": [
             {
+                "url": "electrum-lcc.cascoin.net:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            },
+            {
                 "url": "lcc-ex-one.ewmci.online:50003",
                 "protocol": "WSS",
                 "contact": [
@@ -20270,6 +20279,15 @@
         },
         "derivation_path": "m/84'/192'",
         "electrum": [
+            {
+                "url": "electrum-lcc.cascoin.net:50003",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "635448663543644170"
+                    }
+                ]
+            },
             {
                 "url": "lcc-ex-one.ewmci.online:50003",
                 "protocol": "WSS",
