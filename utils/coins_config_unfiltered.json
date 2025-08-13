@@ -31108,7 +31108,26 @@
             "github": "https://github.com/NewYorkCoinNYC/newyorkcoin",
             "homepage": "https://newyorkcoin.online"
         },
-        "electrum": [],
+        "electrum": [
+            {
+                "url": "nyc.newyorkcoin.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "424152733218635787"
+                    }
+                ]
+            },
+            {
+                "url": "nyc.newyorkcoin.online:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": "424152733218635787"
+                    }
+                ]
+            }
+        ],
         "explorer_block_url": "block.dws?"
     },
     "NYC-BEP20": {
