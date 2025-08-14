@@ -34086,7 +34086,7 @@
         "type": "UTXO",
         "name": "Shibacoin",
         "coinpaprika_id": "shic-shibacoin",
-        "coingecko_id": "",
+        "coingecko_id": "shibacoin",
         "livecoinwatch_id": "SHIC",
         "explorer_url": "https://shibaexplorer.com/",
         "explorer_tx_url": "tx/",
