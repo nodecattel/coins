@@ -208,6 +208,25 @@ class UptimeTracker:
         
         return self.current_timestamp - latest_timestamp
     
+    def get_server_offline_duration(self, coin: str, server_url: str) -> Optional[int]:
+        """
+        Get how long a specific server has been offline.
+        
+        Args:
+            coin: The coin ticker
+            server_url: The server URL
+            
+        Returns:
+            Duration in seconds if currently offline, None if online or no data
+        """
+        if coin not in self.uptime_data or "by_server" not in self.uptime_data[coin] or server_url not in self.uptime_data[coin]["by_server"]:
+            return None
+            
+        # Server history is already in the correct format: {timestamp: status}
+        server_history = self.uptime_data[coin]["by_server"][server_url]
+            
+        return self.get_offline_duration(server_history)
+    
     def get_contact_info(self, coin: str, server_url: str) -> Optional[List[Dict]]:
         """
         Get contact information for a server.

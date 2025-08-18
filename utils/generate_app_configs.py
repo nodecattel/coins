@@ -436,12 +436,15 @@ class CoinConfig:
             with open(f"{repo_path}/electrums/{coin}", "r") as f:
                 electrums = json.load(f)
                     
-            if coin in electrum_scan_report:
+            if coin in self.electrum_scan_report:
                 valid_electrums = []
+                current_time_local = time.time()  # Use local time to avoid scope issues
                 for x in ["tcp", "ssl", "wss"]:
                     # This also filters ws with tcp/ssl server it is grouped with if valid.
-                    for k, v in electrum_scan_report[coin][x].items():
-                        is_server_online = (current_time - v["last_connection"] < 604800)  # 1 week grace period
+                    if x not in self.electrum_scan_report[coin]:
+                        continue
+                    for k, v in self.electrum_scan_report[coin][x].items():
+                        is_server_online = (v["last_connection"] > 0 and current_time_local - v["last_connection"] < 604800)  # 1 week grace period
                         
                         if is_server_online:
                             for electrum in electrums:
@@ -709,6 +712,20 @@ def parse_coins_repo(electrum_scan_report, uptime_tracker=None):
 
     logger.info(f"Working coins: {len(working_coins)}")
     logger.warning(f"Delisted coins (no working connections): {len(delisted_coins)} - {delisted_coins}")
+    
+    # Update scan summary with delisted coins if it exists
+    scan_summary_path = f"{script_path}/scan_summary.json"
+    if os.path.exists(scan_summary_path):
+        try:
+            with open(scan_summary_path, "r") as f:
+                scan_summary = json.load(f)
+            
+            scan_summary["delisted_coins"] = delisted_coins
+            
+            with open(scan_summary_path, "w") as f:
+                json.dump(scan_summary, f, indent=4)
+        except Exception as e:
+            logger.warning(f"Failed to update scan summary: {e}")
     
     if errors:
         logger.error(f"Errors:")
@@ -1266,9 +1283,18 @@ if __name__ == "__main__":
         # Use existing scan data
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             electrum_scan_report = json.load(f)
+        
+        # Note: scan_summary will be generated after uptime tracker initialization
 
     # Initialize uptime tracking
     uptime_tracker = UptimeTracker(f"{script_path}/uptime_history.json")
+    
+    # Generate scan summary with uptime tracker as source of truth
+    from scan_electrums import generate_scan_summary
+    current_time = int(time.time())
+    scan_summary = generate_scan_summary(electrum_scan_report, current_time, uptime_tracker)
+    with open(f"{script_path}/scan_summary.json", "w") as f:
+        json.dump(scan_summary, f, indent=4)
     
     coins_config, delisted_coins = parse_coins_repo(electrum_scan_report, uptime_tracker)
     

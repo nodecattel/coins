@@ -885,11 +885,8 @@ def get_repo_ethereum():
 
 
 def get_existing_report():
-    # Check for new filename first, fallback to old filename for backward compatibility
-    if os.path.exists("node_scan_report.json"):
-        with open(f"{script_path}/node_scan_report.json", "r") as f:
-            return json.load(f)
-    elif os.path.exists("electrum_scan_report.json"):
+    # Load existing electrum scan report for connection history
+    if os.path.exists("electrum_scan_report.json"):
         with open(f"{script_path}/electrum_scan_report.json", "r") as f:
             return json.load(f)
     return {}
@@ -903,6 +900,45 @@ def get_last_connection(report, coin, protocol, server):
     except TypeError:
         return 0
 
+
+
+def generate_scan_summary(legacy_results, current_time, uptime_tracker=None):
+    """Generate scan summary with servers offline >30 days using uptime tracker as source of truth"""
+    days_since_connection = {}
+    THIRTY_DAYS_SECONDS = 30 * 24 * 60 * 60  # 30 days in seconds
+    
+    # If uptime tracker is provided, use it as the source of truth
+    if uptime_tracker:
+        for coin, coin_data in legacy_results.items():
+            for protocol in ["tcp", "ssl", "wss"]:
+                if protocol in coin_data:
+                    for server, server_data in coin_data[protocol].items():
+                        # Check uptime tracker for real offline duration
+                        offline_duration = uptime_tracker.get_server_offline_duration(coin, server)
+                        if offline_duration and offline_duration > THIRTY_DAYS_SECONDS:
+                            days_offline = int(offline_duration / (24 * 60 * 60))
+                            days_since_connection[server] = days_offline
+    else:
+        # Fallback to scan report data if no uptime tracker
+        for coin, coin_data in legacy_results.items():
+            for protocol in ["tcp", "ssl", "wss"]:
+                if protocol in coin_data:
+                    for server, server_data in coin_data[protocol].items():
+                        last_connection = server_data.get("last_connection", 0)
+                        
+                        # Only include servers that haven't connected for over 30 days
+                        if last_connection == 0:
+                            # Never connected - skip rather than using misleading 999 days
+                            continue
+                        else:
+                            days_offline = (current_time - last_connection) / (24 * 60 * 60)
+                            if days_offline > 30:
+                                days_since_connection[server] = int(days_offline)
+    
+    return {
+        "delisted_coins": [],  # Will be populated by generate_app_configs.py
+        "days_since_connection": days_since_connection
+    }
 
 
 def get_electrums_report():
@@ -1265,10 +1301,8 @@ def get_electrums_report():
                 wss_info["ssl_days_left"] = cert_days if cert_days is not None else -1
                 results["evm"][coin]["wss"].update({i: wss_info})
 
-    with open(f"{script_path}/node_scan_report.json", "w+") as f:
-        f.write(json.dumps(results, indent=4))
 
-    # Generate backward-compatible electrum_scan_report.json
+    # Generate electrum_scan_report.json
     legacy_results = {}
     
     # Merge all node types into the legacy format
@@ -1337,8 +1371,10 @@ def get_electrums_report():
     with open(f"{script_path}/electrum_scan_report.json", "w+") as f:
         f.write(json.dumps(legacy_results, indent=4))
 
+    # Note: scan_summary will be generated in generate_app_configs.py with uptime tracker
+
     # print(json.dumps(results, indent=4))
-    return results
+    return legacy_results
 
 if __name__ == '__main__':
     get_electrums_report()
