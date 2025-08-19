@@ -36,6 +36,18 @@
         ]
     },
     {
+        "name": "drogon-dragon-seed",
+        "host": "drogon.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
         "name": "falkor-dragon-seed",
         "host": "falkor.dragon-seed.com",
         "type": "domain",
@@ -48,8 +60,44 @@
         ]
     },
     {
-        "name": "drogon-dragon-seed",
-        "host": "drogon.dragon-seed.com",
+        "name": "heeby-dragon-seed",
+        "host": "heeby.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "smaug-dragon-seed",
+        "host": "smaug.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "tintaglia-dragon-seed",
+        "host": "tintaglia.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "viserion-dragon-seed",
+        "host": "viserion.dragon-seed.com",
         "type": "domain",
         "wss": true,
         "netid": 8762,
