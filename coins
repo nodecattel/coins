@@ -6646,6 +6646,28 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "HBAR-BEP20",
+    "name": "hbar_bep20",
+    "fname": "Hedera",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.75,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x0422f966Bf8E978075a97D47eF4c7EFd3563Fa51"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://hedera.com"
+    }
+  },
+  {
     "coin": "HEX-ERC20",
     "name": "hex_erc20",
     "fname": "HEX",
@@ -12461,6 +12483,28 @@
       }
     },
     "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "SUI-BEP20",
+    "name": "sui_bep20",
+    "fname": "Sui",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.75,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0xd57f2e190C11cffc667AA5aD026Cd4C8DE0772a7"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://sui.io"
+    }
   },
   {
     "coin": "SUSHI-AVX20",
