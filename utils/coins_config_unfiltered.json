@@ -1610,6 +1610,7 @@
             "homepage": "https://aibc.space"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "AIPG": {
@@ -1721,6 +1722,7 @@
             "homepage": "https://aney.one"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "ANKR-BEP20": {
@@ -2861,33 +2863,6 @@
         "derivation_path": "m/44'/85'",
         "electrum": [
             {
-                "url": "electrum1.valhala.is:50001",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "388437778624413706"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.valhala.is:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "388437778624413706"
-                    }
-                ]
-            },
-            {
-                "url": "electrum1.valhala.is:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "388437778624413706"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx.aur.ewmcx.info:50002",
                 "protocol": "SSL",
                 "disable_cert_verification": true
@@ -3114,10 +3089,6 @@
             {
                 "url": "https://avalanche-c-chain-rpc.publicnode.com",
                 "ws_url": "wss://avalanche-c-chain-rpc.publicnode.com"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/avalanche",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -5410,6 +5381,7 @@
             "type": "UTXO"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "BCZERO": {
@@ -5886,6 +5858,7 @@
         "segwit": false,
         "txfee": 1000,
         "mm2": 1,
+        "delisted": true,
         "required_confirmations": 3,
         "avg_blocktime": 90,
         "protocol": {
@@ -7205,15 +7178,6 @@
                     }
                 ],
                 "protocol": "WSS"
-            },
-            {
-                "url": "electrum5.btcz.rocks:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "426842722436120577"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -10144,7 +10108,8 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/1999'",
-        "explorer_block_url": "block.dws?"
+        "explorer_block_url": "block.dws?",
+        "delisted": true
     },
     "COMP-AVX20": {
         "coin": "COMP-AVX20",
@@ -12978,42 +12943,6 @@
         },
         "electrum": [
             {
-                "url": "electrumx1.dimecoinnetwork.com:50001",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "electrumx1.dimecoinnetwork.com:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx1.dimecoinnetwork.com:50004",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "developer@dimecoinnetwork.com"
-                    },
-                    {
-                        "discord": "dhop14#9359"
-                    }
-                ]
-            },
-            {
                 "url": "electrumx2.dimecoinnetwork.com:50001",
                 "contact": [
                     {
@@ -13059,7 +12988,7 @@
         "coinpaprika_id": "dimi-diminutive-coin",
         "coingecko_id": "diminutive-coin",
         "livecoinwatch_id": "DIMI",
-        "explorer_url": "https://explorer.diminutivecoin.com/",
+        "explorer_url": "https://explorer_new.diminutivecoin.com/",
         "explorer_tx_url": "tx/",
         "explorer_address_url": "address/",
         "supported": [],
@@ -13069,7 +12998,7 @@
         "wallet_only": false,
         "sign_message_prefix": "DiminutiveCoin Signed Message:\n",
         "fname": "Diminutive Coin",
-        "rpcport": 49122,
+        "rpcport": 49588,
         "pubtype": 32,
         "p2shtype": 30,
         "wiftype": 181,
@@ -13077,11 +13006,16 @@
         "txfee": 10000,
         "segwit": false,
         "mm2": 1,
-        "mature_confirmations": 75,
-        "required_confirmations": 4,
+        "mature_confirmations": 100,
+        "required_confirmations": 6,
         "avg_blocktime": 75,
         "protocol": {
             "type": "UTXO"
+        },
+        "derivation_path": "m/44'/745'",
+        "links": {
+            "github": "https://github.com/MadCatMining/DiminutiveCoin",
+            "homepage": "https://diminutivecoin.com"
         },
         "electrum": [
             {
@@ -15163,10 +15097,6 @@
             {
                 "url": "https://mainnet.gateway.tenderly.co",
                 "ws_url": "wss://mainnet.gateway.tenderly.co"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/ethereum",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -15275,10 +15205,6 @@
             {
                 "url": "https://arbitrum.meowrpc.com",
                 "ws_url": "wss://arbitrum.callstaticrpc.com"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/arbitrum",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -17256,7 +17182,8 @@
         "links": {
             "github": "https://github.com/floblockchain/flo",
             "homepage": "https://flo.cash"
-        }
+        },
+        "delisted": true
     },
     "FLOW-BEP20": {
         "coin": "FLOW-BEP20",
@@ -17702,10 +17629,6 @@
             {
                 "url": "https://fantom.drpc.org",
                 "ws_url": "wss://fantom.drpc.org"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/fantom",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -18474,6 +18397,7 @@
             "homepage": "https://gobyte.network"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "GBX-BEP20": {
@@ -20463,6 +20387,64 @@
         ],
         "explorer_block_url": "block/"
     },
+    "HBAR-BEP20": {
+        "coin": "HBAR-BEP20",
+        "type": "BEP-20",
+        "name": "Hedera",
+        "coinpaprika_id": "hbar-hedera-hashgraph",
+        "coingecko_id": "hedera-hashgraph",
+        "livecoinwatch_id": "HBAR",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Hedera",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 0.75,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x0422f966Bf8E978075a97D47eF4c7EFd3563Fa51"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://hedera.com"
+        },
+        "contract_address": "0x0422f966Bf8E978075a97D47eF4c7EFd3563Fa51",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
     "HEX-ERC20": {
         "coin": "HEX-ERC20",
         "type": "ERC-20",
@@ -20756,14 +20738,8 @@
         },
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "http://http-mainnet.hecochain.com"
-            },
-            {
-                "url": "https://http-mainnet-node.huobichain.com"
-            }
-        ],
+        "nodes": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "HT-ERC20": {
@@ -25745,6 +25721,30 @@
                 ]
             },
             {
+                "url": "electrum2.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.lcnxp.com:52002",
                 "protocol": "SSL",
                 "contact": [
@@ -25758,6 +25758,30 @@
             },
             {
                 "url": "electrum3.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -25862,6 +25886,30 @@
                 ]
             },
             {
+                "url": "electrum2.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
                 "url": "electrum3.lcnxp.com:52002",
                 "protocol": "SSL",
                 "contact": [
@@ -25875,6 +25923,30 @@
             },
             {
                 "url": "electrum3.lcnxp.com:52004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "jaybitron@gmail.com"
+                    },
+                    {
+                        "discord": "jaybitron"
+                    }
+                ]
+            },
+            {
+                "url": "electrum4.lcnxp.com:52004",
                 "protocol": "WSS",
                 "contact": [
                     {
@@ -26136,6 +26208,7 @@
             "type": "UTXO"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "LEO-ERC20": {
@@ -28021,17 +28094,8 @@
         },
         "derivation_path": "m/44'/60'",
         "swap_contract_address": "0x73c1Dd989218c3A154C71Fc08Eb55A24Bd2B3A10",
-        "nodes": [
-            {
-                "url": "https://matic-mumbai.chainstacklabs.com"
-            },
-            {
-                "url": "https://rpc-mumbai.matic.today"
-            },
-            {
-                "url": "https://rpc-mumbai.maticvigil.com"
-            }
-        ],
+        "nodes": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "MATIC": {
@@ -28072,10 +28136,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://node.komodo.earth:8080/polygon",
-                "komodo_proxy": true
-            },
             {
                 "url": "https://pol3.cipig.net:18755",
                 "ws_url": "wss://pol3.cipig.net:38755"
@@ -30525,6 +30585,7 @@
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
+        "delisted": true,
         "required_confirmations": 2,
         "requires_notarization": true,
         "avg_blocktime": 60,
@@ -30680,48 +30741,6 @@
         },
         "derivation_path": "m/44'/50'",
         "electrum": [
-            {
-                "url": "electrumx.nvc.ewmcx.org:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "NovacoinCommunity"
-                    },
-                    {
-                        "github": "novacoin-project"
-                    }
-                ]
-            },
-            {
-                "url": "electrumx.nvc.ewmcx.org:50003",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "NovacoinCommunity"
-                    },
-                    {
-                        "github": "novacoin-project"
-                    }
-                ]
-            },
             {
                 "url": "failover.nvc.ewmcx.biz:50002",
                 "protocol": "SSL",
@@ -31758,10 +31777,6 @@
             {
                 "url": "https://harmony-0.drpc.org",
                 "ws_url": "wss://harmony-0.drpc.org"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/harmony",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -32871,16 +32886,8 @@
             "github": "https://github.com/Pink2Dev/Pink2",
             "homepage": "https://getstarted.with.pink"
         },
-        "electrum": [
-            {
-                "url": "pink-one.ewm-cx.net:50001",
-                "protocol": "TCP"
-            },
-            {
-                "url": "pink-two.ewm-cx.net:50001",
-                "protocol": "TCP"
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?"
     },
     "PIVX": {
@@ -33539,7 +33546,8 @@
             "type": "UTXO"
         },
         "derivation_path": "m/44'/853'",
-        "explorer_block_url": "block/"
+        "explorer_block_url": "block/",
+        "delisted": true
     },
     "PRCY-BEP20": {
         "coin": "PRCY-BEP20",
@@ -36749,6 +36757,7 @@
         },
         "derivation_path": "m/44'/10226'",
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "RTM-BEP20": {
@@ -38400,6 +38409,64 @@
                 "ws_url": "wss://polygon.gateway.tenderly.co"
             }
         ],
+        "explorer_block_url": "block/"
+    },
+    "SUI-BEP20": {
+        "coin": "SUI-BEP20",
+        "type": "BEP-20",
+        "name": "Sui",
+        "coinpaprika_id": "sui-sui",
+        "coingecko_id": "sui",
+        "livecoinwatch_id": "_SUI",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Sui",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
+        "avg_blocktime": 0.75,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0xd57f2e190C11cffc667AA5aD026Cd4C8DE0772a7"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://sui.io"
+        },
+        "contract_address": "0xd57f2e190C11cffc667AA5aD026Cd4C8DE0772a7",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
     "SUSHI-AVX20": {
@@ -44468,22 +44535,6 @@
                     }
                 ],
                 "disable_cert_verification": false
-            },
-            {
-                "url": "el2.verus.io:17488",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -44521,6 +44572,7 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "VTC": {
@@ -47875,33 +47927,6 @@
                         "discord": "475820011634819072"
                     }
                 ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50011",
-                "protocol": "TCP",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50012",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
-            },
-            {
-                "url": "zet-ex-three.ewmci.online:50013",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "475820011634819072"
-                    }
-                ]
             }
         ],
         "explorer_block_url": "block.dws?"
@@ -49862,7 +49887,8 @@
                 "chain_id": 11155111
             }
         },
-        "derivation_path": "m/44'/60'"
+        "derivation_path": "m/44'/60'",
+        "delisted": true
     },
     "REV-ERC20": {
         "coin": "REV-ERC20",
@@ -50444,9 +50470,6 @@
         "nodes": [
             {
                 "url": "https://pyrus2.ubiqscan.io"
-            },
-            {
-                "url": "https://rpc.octano.dev"
             }
         ],
         "explorer_block_url": "block/"
@@ -51266,15 +51289,6 @@
         "derivation_path": "m/44'/1'",
         "electrum": [
             {
-                "url": "electrs.electroncash.de:60002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "website": "https://1209k.com/bitcoin-eye/ele.php?chain=tbch"
-                    }
-                ]
-            },
-            {
                 "url": "tbch.loping.net:60002",
                 "protocol": "SSL",
                 "contact": [
@@ -51322,6 +51336,7 @@
             "homepage": "https://ufobject.com"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block.dws?"
     },
     "WHIVE": {
@@ -51796,6 +51811,7 @@
         "derivation_path": "m/44'/141'",
         "required_confirmations": 3,
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "ZINU-BEP20": {
@@ -52138,10 +52154,6 @@
             },
             {
                 "url": "https://cosmoshub.rpc.stakin-nodes.com/"
-            },
-            {
-                "url": "https://node.komodo.earth:8080/cosmos",
-                "komodo_proxy": true
             }
         ],
         "explorer_block_url": "block/",
@@ -52183,12 +52195,6 @@
         },
         "derivation_path": "m/44'/118'",
         "rpc_urls": [
-            {
-                "url": "https://iris-rpc.alpha.komodo.earth/",
-                "api_url": "https://iris-api.alpha.komodo.earth/",
-                "grpc_url": "https://iris-grpc.alpha.komodo.earth/",
-                "ws_url": "wss://iris-rpc.alpha.komodo.earth/websocket"
-            },
             {
                 "url": "https://rpc.irishub-1.irisnet.org"
             }
@@ -52293,9 +52299,6 @@
             },
             {
                 "url": "https://osmosis.rpc.stakin-nodes.com"
-            },
-            {
-                "url": "https://rpc-osmosis-ia.cosmosia.notional.ventures/"
             },
             {
                 "url": "https://rpc.osmosis.zone/"
@@ -52595,6 +52598,7 @@
             "homepage": "https://nito.network"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "EVR": {
@@ -52741,6 +52745,33 @@
             "homepage": "https://kiirocoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.kiirocoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "1155906841625239684"
+                    }
+                ]
+            },
+            {
+                "url": "electrum1.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
+            {
+                "url": "electrum2.kiirocoin.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.kiirocoin.org:50002",
                 "protocol": "SSL",
@@ -52911,11 +52942,8 @@
             }
         },
         "derivation_path": "m/44'/118'",
-        "rpc_urls": [
-            {
-                "url": "https://evmrpc.nyancat.irisnet.org"
-            }
-        ],
+        "rpc_urls": [],
+        "delisted": true,
         "explorer_block_url": "#/blocks/"
     },
     "NUCLEUSTEST": {
@@ -52964,12 +52992,6 @@
                 "api_url": "https://nucleus-api.charlie.komodo.earth/",
                 "grpc_url": "https://nucleus-grpc.charlie.komodo.earth/",
                 "ws_url": "wss://nucleus-rpc.charlie.komodo.earth/websocket"
-            },
-            {
-                "url": "https://nucleus-rpc.delta.komodo.earth/",
-                "api_url": "https://nucleus-api.delta.komodo.earth/",
-                "grpc_url": "https://nucleus-grpc.delta.komodo.earth/",
-                "ws_url": "wss://nucleus-rpc.delta.komodo.earth/websocket"
             }
         ],
         "explorer_block_url": "nucleus/blocks/"
@@ -53156,6 +53178,7 @@
         "derivation_path": "m/44'/141'",
         "trezor_coin": "Komodo",
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "ZOIN": {
@@ -53194,6 +53217,7 @@
             "homepage": "http://zoincommunity.com/"
         },
         "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "NFT_ETH": {
