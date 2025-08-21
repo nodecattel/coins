@@ -60,8 +60,8 @@
         ]
     },
     {
-        "name": "heeby-dragon-seed",
-        "host": "heeby.dragon-seed.com",
+        "name": "icefyre-dragon-seed",
+        "host": "icefyre.dragon-seed.com",
         "type": "domain",
         "wss": true,
         "netid": 8762,
@@ -72,8 +72,44 @@
         ]
     },
     {
-        "name": "smaug-dragon-seed",
-        "host": "smaug.dragon-seed.com",
+        "name": "kalessin-dragon-seed",
+        "host": "kalessin.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "karrigvestrit-dragon-seed",
+        "host": "karrigvestrit.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "relpda-dragon-seed",
+        "host": "relpda.dragon-seed.com",
+        "type": "domain",
+        "wss": true,
+        "netid": 8762,
+        "contact": [
+            {
+                "email": ""
+            }
+        ]
+    },
+    {
+        "name": "sintara-dragon-seed",
+        "host": "sintara.dragon-seed.com",
         "type": "domain",
         "wss": true,
         "netid": 8762,
