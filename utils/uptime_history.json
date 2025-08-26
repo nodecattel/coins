@@ -988,7 +988,8 @@
         "1755770395": "online"
       },
       "electrum5.btcz.rocks:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756167205": "online"
       },
       "electrum5.btcz.rocks:50004": {
         "1755770395": "offline"
@@ -3164,7 +3165,8 @@
         "1755770395": "online"
       },
       "electrum1.kiirocoin.org:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756167205": "online"
       },
       "electrum2.kiirocoin.org:50002": {
         "1755770395": "online"
@@ -4542,10 +4544,12 @@
         }
       },
       "electrumx.nvc.ewmcx.org:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756167205": "online"
       },
       "electrumx.nvc.ewmcx.org:50003": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756167205": "online"
       },
       "failover.nvc.ewmcx.biz:50002": {
         "1755770395": "online"
