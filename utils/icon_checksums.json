@@ -1866,5 +1866,9 @@
   "beamx.png": {
     "original": "2eb120655206c52cf6997fc80f8db2f598e19cc7684f7d16ba76d5c8d86c17e2",
     "processed": "7f38b7a74316a309efda1b048d10fea65a5c931c481c7ecb99476431599cdcb6"
+  },
+  "lpt.png": {
+    "original": "0e5bfc8f342df7ca60adb098741e15c6a08f7088eb3bade3477094ad93d2a679",
+    "processed": "aabd60e21f4dfca14bf62d00df7c4e76308dc466d41055ede872254b26ec5ab5"
   }
 }
