@@ -847,13 +847,16 @@
     },
     "by_server": {
       "electrumserver01.globalboost.info:50011": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756345150": "online"
       },
       "electrumserver01.globalboost.info:50013": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756345150": "online"
       },
       "electrumserver01.globalboost.info:50014": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1756345150": "online"
       },
       "electrumserver02.globalboost.info:50011": {
         "1755770395": "online"
