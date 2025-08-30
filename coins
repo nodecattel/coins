@@ -1790,6 +1790,66 @@
     "derivation_path": "m/44'/60'"
   },
   {
+    "coin": "BEAMX-BEP20",
+    "name": "beamx_bep20",
+    "fname": "Beam",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 56,
+    "decimals": 18,
+    "avg_blocktime": 0.75,
+    "required_confirmations": 5,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "BNB",
+        "contract_address": "0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://onbeam.com"
+    }
+  },
+  {
+    "coin": "BEAMX-AVX20",
+    "name": "beamx_avx20",
+    "fname": "Beam",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 43114,
+    "decimals": 18,
+    "avg_blocktime": 2.4,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "AVAX",
+        "contract_address": "0x62d0a8458ed7719fdaf978fe5929c6d342b0bfce"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "BEAMX-ERC20",
+    "name": "beamx_erc20",
+    "fname": "Beam",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x62D0A8458eD7719FDAF978fe5929C6D342B0bFcE"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
     "coin": "BIDR-BEP20",
     "name": "bidr_bep20",
     "fname": "BIDR",
@@ -4911,6 +4971,25 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
+  },
+  {
+    "coin": "EURE-ARB20",
+    "name": "eure_arb20",
+    "fname": "Monerium EUR",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x0c06cCF38114ddfc35e07427B9424adcca9F44F8"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "EURE-ERC20",
@@ -8683,6 +8762,47 @@
       "erc20_receiver_spend": 85000,
       "erc20_sender_refund": 85000
     }
+  },
+  {
+    "coin": "LPT-ERC20",
+    "name": "lpt_erc20",
+    "fname": "Livepeer",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 1,
+    "decimals": 18,
+    "avg_blocktime": 15,
+    "required_confirmations": 3,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH",
+        "contract_address": "0x58b6A8A3302369DAEc383334672404Ee733aB239"
+      }
+    },
+    "derivation_path": "m/44'/60'",
+    "links": {
+      "homepage": "https://www.livepeer.org"
+    }
+  },
+  {
+    "coin": "LPT-ARB20",
+    "name": "lpt_arb20",
+    "fname": "Livepeer",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x289ba1701C2F088cf0faf8B3705246331cB8A839"
+      }
+    },
+    "derivation_path": "m/44'/60'"
   },
   {
     "coin": "LSWAP-BEP20",
@@ -12680,6 +12800,25 @@
       "protocol_data": {
         "platform": "BNB",
         "contract_address": "0x83BC92dcfC1F62Ba5dbd0f3537032f83a004300A"
+      }
+    },
+    "derivation_path": "m/44'/60'"
+  },
+  {
+    "coin": "TBTC-ARB20",
+    "name": "tbtc_arb20",
+    "fname": "tBTC",
+    "rpcport": 80,
+    "mm2": 1,
+    "chain_id": 42161,
+    "decimals": 18,
+    "avg_blocktime": 0.25,
+    "required_confirmations": 10,
+    "protocol": {
+      "type": "ERC20",
+      "protocol_data": {
+        "platform": "ETH-ARB20",
+        "contract_address": "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40"
       }
     },
     "derivation_path": "m/44'/60'"
@@ -17071,7 +17210,7 @@
     "sign_message_prefix": "Cascoin Signed Message:\n",
     "rpcport": 62457,
     "pubtype": 40,
-    "p2shtype": 8,
+    "p2shtype": 50,
     "wiftype": 188,
     "decimals": 7,
     "fork_id": "0x40",
