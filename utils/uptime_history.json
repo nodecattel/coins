@@ -286,13 +286,16 @@
         }
       },
       "electrum1.valhala.is:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrum1.valhala.is:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrum1.valhala.is:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrumx.aur.ewmcx.info:50002": {
         "1755770395": "online"
@@ -992,7 +995,8 @@
       },
       "electrum5.btcz.rocks:50002": {
         "1755770395": "offline",
-        "1756167205": "online"
+        "1756167205": "online",
+        "1757307678": "offline"
       },
       "electrum5.btcz.rocks:50004": {
         "1755770395": "offline"
@@ -1583,10 +1587,12 @@
         "1755770395": "offline"
       },
       "failover.dgc.ewmcx.biz:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       }
     }
   },
@@ -1669,13 +1675,16 @@
         }
       },
       "electrumx1.dimecoinnetwork.com:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757307678": "online"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -1690,7 +1699,8 @@
   },
   "DIMI": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1757307678": "offline"
     },
     "by_server": {
       "_metadata": {
@@ -1731,6 +1741,20 @@
               "discord": "[MadCatMining]#0677"
             }
           ]
+        },
+        "electrumx2.diminutivecoin.com:50012": {
+          "contact": [
+            {
+              "email": "support@diminutivecoin.com"
+            }
+          ]
+        },
+        "electrumx2.diminutivecoin.com:50013": {
+          "contact": [
+            {
+              "email": "support@diminutivecoin.com"
+            }
+          ]
         }
       },
       "electrumx1.diminutivecoin.com:50012": {
@@ -1740,10 +1764,12 @@
         "1755770395": "offline"
       },
       "electrumx2.diminutivecoin.com:50012": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "electrumx2.diminutivecoin.com:50013": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       }
     }
   },
@@ -1867,6 +1893,32 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "pink-deer-69.doi.works:50001": {
+          "contact": [
+            {
+              "github": "https://github.com/doichain/electrum-doi/issues",
+              "twitter": "doichain"
+            }
+          ]
+        },
+        "pink-deer-69.doi.works:50002": {
+          "contact": [
+            {
+              "github": "https://github.com/doichain/electrum-doi/issues",
+              "twitter": "doichain"
+            }
+          ]
+        },
+        "pink-deer-69.doi.works:50004": {
+          "contact": [
+            {
+              "github": "https://github.com/doichain/electrum-doi/issues",
+              "twitter": "doichain"
+            }
+          ]
+        }
+      },
       "big-parrot-60.doi.works:50002": {
         "1755770395": "online"
       },
@@ -1880,13 +1932,16 @@
         "1755770395": "online"
       },
       "pink-deer-69.doi.works:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "pink-deer-69.doi.works:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "pink-deer-69.doi.works:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "ugly-bird-70.doi.works:50002": {
         "1755770395": "online"
@@ -2915,11 +2970,35 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum1.groestlcoin.org:50001": {
+          "contact": [
+            {
+              "email": "jackielove4u@hotmail.com"
+            },
+            {
+              "discord": "jackielove4u#0412"
+            }
+          ]
+        },
+        "electrum1.groestlcoin.org:50004": {
+          "contact": [
+            {
+              "email": "jackielove4u@hotmail.com"
+            },
+            {
+              "discord": "jackielove4u#0412"
+            }
+          ]
+        }
+      },
       "electrum1.groestlcoin.org:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "electrum1.groestlcoin.org:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "electrum2.groestlcoin.org:50001": {
         "1755770395": "online"
@@ -4580,7 +4659,8 @@
     "by_server": {
       "https://1rpc.io/one": {
         "1755770395": "online",
-        "1756519454": "offline"
+        "1756519454": "offline",
+        "1757307678": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -5468,10 +5548,12 @@
         "1755770395": "online"
       },
       "uis-uno.ewmcx.net:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "uis-uno.ewmcx.net:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       }
     }
   },
@@ -5582,6 +5664,19 @@
             }
           ]
         },
+        "el1.verus.io:17488": {
+          "contact": [
+            {
+              "email": "0x03-ctrlc@protonmail.com"
+            },
+            {
+              "discord": "0x03#8822"
+            },
+            {
+              "keybase": "bloodynora"
+            }
+          ]
+        },
         "el2.verus.io:17488": {
           "contact": [
             {
@@ -5612,7 +5707,8 @@
         "1755770395": "online"
       },
       "el1.verus.io:17488": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757307678": "offline"
       },
       "el2.verus.io:17485": {
         "1755770395": "online"
