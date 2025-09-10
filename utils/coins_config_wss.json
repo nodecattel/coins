@@ -9872,6 +9872,44 @@
         "explorer_block_url": "block/",
         "binance_id": "DGB"
     },
+    "DGC": {
+        "coin": "DGC",
+        "type": "UTXO",
+        "name": "Digitalcoin",
+        "coinpaprika_id": "dgc-digitalcoin",
+        "coingecko_id": "digitalcoin",
+        "livecoinwatch_id": "DGC",
+        "explorer_url": "https://chainz.cryptoid.info/dgc/",
+        "explorer_tx_url": "tx.dws?",
+        "explorer_address_url": "address.dws?",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Digitalcoin Signed Message:\n",
+        "fname": "Digitalcoin",
+        "rpcport": 7998,
+        "pubtype": 30,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "txfee": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "avg_blocktime": 36,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/18'",
+        "electrum": [
+            {
+                "url": "failover.dgc.ewmcx.biz:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": true
+            }
+        ],
+        "explorer_block_url": "block.dws?"
+    },
     "DIA-ERC20": {
         "coin": "DIA-ERC20",
         "type": "ERC-20",
@@ -15527,6 +15565,18 @@
             "homepage": "https://www.groestlcoin.org"
         },
         "electrum": [
+            {
+                "url": "electrum1.groestlcoin.org:50004",
+                "contact": [
+                    {
+                        "email": "jackielove4u@hotmail.com"
+                    },
+                    {
+                        "discord": "jackielove4u#0412"
+                    }
+                ],
+                "protocol": "WSS"
+            },
             {
                 "url": "electrum2.groestlcoin.org:50004",
                 "contact": [
@@ -32991,6 +33041,11 @@
                 "url": "failover.trc-uis.ewmcx.biz:50003",
                 "protocol": "WSS",
                 "disable_cert_verification": false
+            },
+            {
+                "url": "uis-uno.ewmcx.net:50003",
+                "protocol": "WSS",
+                "disable_cert_verification": false
             }
         ],
         "explorer_block_url": "block/"
@@ -35070,6 +35125,74 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "VRSC": {
+        "coin": "VRSC",
+        "type": "Smart Chain",
+        "name": "Verus Coin",
+        "coinpaprika_id": "vrsc-verus-coin",
+        "coingecko_id": "verus-coin",
+        "livecoinwatch_id": "VRSC",
+        "explorer_url": "https://explorer.verus.io/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Komodo Signed Message:\n",
+        "asset": "VRSC",
+        "fname": "Verus Coin",
+        "rpcport": 27486,
+        "pubtype": 60,
+        "p2shtype": 85,
+        "wiftype": 188,
+        "txversion": 4,
+        "overwintered": 1,
+        "mm2": 1,
+        "required_confirmations": 5,
+        "avg_blocktime": 60,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/141'",
+        "trezor_coin": "Komodo",
+        "electrum": [
+            {
+                "url": "el0.verus.io:17488",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ],
+                "disable_cert_verification": false
+            },
+            {
+                "url": "el1.verus.io:17488",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "0x03-ctrlc@protonmail.com"
+                    },
+                    {
+                        "discord": "0x03#8822"
+                    },
+                    {
+                        "keybase": "bloodynora"
+                    }
+                ],
+                "disable_cert_verification": false
+            }
+        ],
         "explorer_block_url": "block/"
     },
     "VTC": {
