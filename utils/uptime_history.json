@@ -1588,11 +1588,13 @@
       },
       "failover.dgc.ewmcx.biz:50002": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       }
     }
   },
@@ -2994,11 +2996,13 @@
       },
       "electrum1.groestlcoin.org:50001": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       },
       "electrum1.groestlcoin.org:50004": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       },
       "electrum2.groestlcoin.org:50001": {
         "1755770395": "online"
@@ -5549,11 +5553,13 @@
       },
       "uis-uno.ewmcx.net:50002": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       },
       "uis-uno.ewmcx.net:50003": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       }
     }
   },
@@ -5698,7 +5704,8 @@
         "1755770395": "online"
       },
       "el0.verus.io:17488": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757463228": "online"
       },
       "el1.verus.io:17485": {
         "1755770395": "online"
@@ -5708,7 +5715,8 @@
       },
       "el1.verus.io:17488": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1757463228": "online"
       },
       "el2.verus.io:17485": {
         "1755770395": "online"
