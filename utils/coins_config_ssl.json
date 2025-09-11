@@ -2312,6 +2312,7 @@
         ],
         "asset": "PIRATE",
         "fname": "Pirate",
+        "is_privacy_coin": true,
         "txversion": 4,
         "overwintered": 1,
         "mm2": 1,
@@ -2408,6 +2409,7 @@
         "currently_enabled": false,
         "wallet_only": true,
         "fname": "Pirate",
+        "is_privacy_coin": true,
         "rpcport": 80,
         "mm2": 1,
         "decimals": 8,
@@ -24376,10 +24378,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://pol3.cipig.net:18755",
-                "ws_url": "wss://pol3.cipig.net:38755"
-            },
-            {
                 "url": "https://polygon-bor-rpc.publicnode.com",
                 "ws_url": "wss://polygon-bor-rpc.publicnode.com"
             },
@@ -37839,6 +37837,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "vARRR",
         "fname": "vARRR",
+        "is_privacy_coin": true,
         "rpcport": 20778,
         "pubtype": 60,
         "p2shtype": 85,
@@ -44296,6 +44295,7 @@
         ],
         "asset": "ZOMBIE",
         "fname": "Zombie",
+        "is_privacy_coin": true,
         "txversion": 4,
         "overwintered": 1,
         "avg_blocktime": 60,
@@ -44437,6 +44437,18 @@
         "electrum": [
             {
                 "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
+            {
+                "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
                 "contact": [
                     {

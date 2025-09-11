@@ -3762,7 +3762,8 @@
         "1755770395": "offline"
       },
       "https://pol3.cipig.net:18755": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1757600932": "offline"
       },
       "https://polygon-bor-rpc.publicnode.com": {
         "1755770395": "online"
@@ -5117,15 +5118,18 @@
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
-        "1756519454": "offline"
+        "1756519454": "offline",
+        "1757600932": "online"
       },
       "electrum3.runebase.io:50002": {
         "1755770395": "online",
-        "1756519454": "offline"
+        "1756519454": "offline",
+        "1757600932": "online"
       },
       "electrum3.runebase.io:50004": {
         "1755770395": "online",
-        "1756519454": "offline"
+        "1756519454": "offline",
+        "1757600932": "online"
       },
       "electrum4.runebase.io:50001": {
         "1755770395": "offline"
