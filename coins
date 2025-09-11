@@ -924,7 +924,6 @@
     "coin": "ARRR-BEP20",
     "name": "arrr_bep20",
     "fname": "Pirate",
-    "is_privacy_coin": true,
     "rpcport": 80,
     "mm2": 1,
     "wallet_only": true,
