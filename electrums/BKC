@@ -9,7 +9,10 @@
   },
   {
     "url": "electrumx3.briskcoin.org:50001",
-    "protocol": "TCP"
+    "protocol": "TCP",
+    "disabled": [
+      "TCP"
+    ]
   },
   {
     "url": "electrumx1.briskcoin.org:50002",
