@@ -4665,7 +4665,8 @@
       "https://1rpc.io/one": {
         "1755770395": "online",
         "1756519454": "offline",
-        "1757307678": "online"
+        "1757307678": "online",
+        "1757795910": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -6240,13 +6241,16 @@
         "1755770395": "offline"
       },
       "zet-ex-three.ewmci.online:50011": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757795910": "online"
       },
       "zet-ex-three.ewmci.online:50012": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757795910": "online"
       },
       "zet-ex-three.ewmci.online:50013": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757795910": "online"
       }
     }
   },

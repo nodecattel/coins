@@ -2309,7 +2309,6 @@
         "currently_enabled": false,
         "wallet_only": true,
         "fname": "Pirate",
-        "is_privacy_coin": true,
         "rpcport": 80,
         "mm2": 1,
         "decimals": 8,
@@ -4847,6 +4846,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "BCZERO",
         "fname": "Buggyra Coin Zero",
+        "is_privacy_coin": true,
         "rpcport": 46856,
         "pubtype": 60,
         "p2shtype": 85,
@@ -5980,10 +5980,6 @@
             {
                 "url": "electrumx2.briskcoin.org:50002",
                 "protocol": "SSL"
-            },
-            {
-                "url": "electrumx3.briskcoin.org:50002",
-                "protocol": "SSL"
             }
         ],
         "explorer_block_url": "block/"
@@ -6148,6 +6144,7 @@
         "wallet_only": false,
         "sign_message_prefix": "BitcoinZ Signed Message:\n",
         "fname": "BitcoinZ",
+        "is_privacy_coin": true,
         "rpcport": 1979,
         "taddr": 28,
         "pubtype": 184,
@@ -7358,6 +7355,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "CCL",
         "fname": "CoinCollect",
+        "is_privacy_coin": true,
         "rpcport": 20849,
         "pubtype": 60,
         "p2shtype": 85,
@@ -7963,6 +7961,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "CHIPS",
         "fname": "CHIPS",
+        "is_privacy_coin": true,
         "rpcport": 22778,
         "pubtype": 60,
         "p2shtype": 85,
@@ -10055,6 +10054,7 @@
         "wallet_only": false,
         "sign_message_prefix": "DarkCoin Signed Message:\n",
         "fname": "Dash",
+        "is_privacy_coin": true,
         "confpath": "USERHOME/.dashcore/dash.conf",
         "rpcport": 9998,
         "pubtype": 76,
@@ -11730,6 +11730,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "DP",
         "fname": "DigitalPrice",
+        "is_privacy_coin": true,
         "rpcport": 28388,
         "pubtype": 60,
         "p2shtype": 85,
@@ -13903,6 +13904,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Firo Signed Message:\n",
         "fname": "Firo",
+        "is_privacy_coin": true,
         "rpcport": 8888,
         "pubtype": 82,
         "p2shtype": 7,
@@ -17790,6 +17792,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "ILN",
         "fname": "Ilien",
+        "is_privacy_coin": true,
         "rpcport": 12986,
         "pubtype": 60,
         "p2shtype": 85,
@@ -21215,6 +21218,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "KOIN",
         "fname": "Koinon",
+        "is_privacy_coin": true,
         "rpcport": 10702,
         "pubtype": 60,
         "p2shtype": 85,
@@ -23041,6 +23045,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
+        "is_privacy_coin": true,
         "rpcport": 9332,
         "pubtype": 48,
         "p2shtype": 50,
@@ -23119,6 +23124,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Litecoin Signed Message:\n",
         "fname": "Litecoin",
+        "is_privacy_coin": true,
         "rpcport": 9332,
         "pubtype": 48,
         "p2shtype": 50,
@@ -24004,6 +24010,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "MCL",
         "fname": "Marmara Credit Loops",
+        "is_privacy_coin": true,
         "rpcport": 33825,
         "pubtype": 60,
         "p2shtype": 85,
@@ -24077,6 +24084,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "MDX",
         "fname": "Mandala",
+        "is_privacy_coin": true,
         "rpcport": 18482,
         "pubtype": 60,
         "p2shtype": 85,
@@ -26817,9 +26825,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -27782,6 +27787,7 @@
         "wallet_only": false,
         "sign_message_prefix": "DarkNet Signed Message:\n",
         "fname": "PIVX",
+        "is_privacy_coin": true,
         "rpcport": 51473,
         "pubtype": 30,
         "p2shtype": 13,
@@ -29620,6 +29626,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "RAPH",
         "fname": "Raphael",
+        "is_privacy_coin": true,
         "rpcport": 30261,
         "pubtype": 60,
         "p2shtype": 85,
@@ -30172,6 +30179,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "DOC",
         "fname": "DOC",
+        "is_privacy_coin": true,
         "rpcport": 62415,
         "pubtype": 60,
         "p2shtype": 85,
@@ -30245,6 +30253,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "MARTY",
         "fname": "MARTY",
+        "is_privacy_coin": true,
         "rpcport": 52592,
         "pubtype": 60,
         "p2shtype": 85,
@@ -31662,6 +31671,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "SPACE",
         "fname": "Spacecoin",
+        "is_privacy_coin": true,
         "rpcport": 35593,
         "pubtype": 60,
         "p2shtype": 85,
@@ -33871,6 +33881,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "THC",
         "fname": "HempCoin",
+        "is_privacy_coin": true,
         "rpcport": 36790,
         "pubtype": 60,
         "p2shtype": 85,
@@ -33981,6 +33992,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "TOKEL",
         "fname": "Tokel",
+        "is_privacy_coin": true,
         "rpcport": 29405,
         "pubtype": 60,
         "p2shtype": 85,
@@ -36804,6 +36816,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "vDEX",
         "fname": "vDEX",
+        "is_privacy_coin": true,
         "rpcport": 21778,
         "pubtype": 60,
         "p2shtype": 85,
@@ -37355,6 +37368,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "VRSC",
         "fname": "Verus Coin",
+        "is_privacy_coin": true,
         "rpcport": 27486,
         "pubtype": 60,
         "p2shtype": 85,
@@ -39913,6 +39927,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Zcash Signed Message:\n",
         "fname": "Zcash",
+        "is_privacy_coin": true,
         "rpcport": 8232,
         "taddr": 28,
         "pubtype": 184,
@@ -39994,6 +40009,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Zero Signed Message:\n",
         "fname": "Zero",
+        "is_privacy_coin": true,
         "rpcport": 23811,
         "taddr": 28,
         "pubtype": 184,
@@ -40149,6 +40165,15 @@
         "electrum": [
             {
                 "url": "zet-ex-four.ewmci.online:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
                 "protocol": "SSL",
                 "contact": [
                     {
@@ -40489,6 +40514,7 @@
         "wallet_only": false,
         "sign_message_prefix": "Zelcash Signed Message:\n",
         "fname": "Flux",
+        "is_privacy_coin": true,
         "rpcport": 16124,
         "taddr": 28,
         "pubtype": 184,
@@ -43236,6 +43262,7 @@
         "sign_message_prefix": "Komodo Signed Message:\n",
         "asset": "ACTN",
         "fname": "Action Coin",
+        "is_privacy_coin": true,
         "rpcport": 51677,
         "pubtype": 60,
         "p2shtype": 85,
