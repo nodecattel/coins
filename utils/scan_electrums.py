@@ -633,7 +633,13 @@ def scan_electrums(electrum_dict):
 
     for coin in electrum_dict:
         for electrum in electrum_dict[coin]:
-                if "ws_url" in electrum:
+                # Get disabled protocols list
+                disabled_protocols = []
+                if "disabled" in electrum:
+                    disabled_protocols = [p.upper() for p in electrum["disabled"]]
+                
+                # Check for WebSocket URL and skip if WSS is disabled
+                if "ws_url" in electrum and "WSS" not in disabled_protocols:
                     url, port = electrum["ws_url"].split(":")
                     protocol_lists['wss'].append(coin)
                 
@@ -648,34 +654,41 @@ def scan_electrums(electrum_dict):
                             node_type='electrum'
                         )
                     )
+                
+                # Check for regular URL
                 if 'url' in electrum:
                     url, port = electrum["url"].split(":")
                     if "protocol" in electrum:
-                        protocol_lists[electrum["protocol"].lower()].append(coin)
-                        thread_list.append(
-                            scan_thread(
-                                coin,
-                                url,
-                                port,
-                                "blockchain.headers.subscribe",
-                                [],
-                                electrum["protocol"].lower(),
-                                node_type='electrum'
+                        protocol = electrum["protocol"].upper()
+                        # Skip if this protocol is disabled
+                        if protocol not in disabled_protocols:
+                            protocol_lists[protocol.lower()].append(coin)
+                            thread_list.append(
+                                scan_thread(
+                                    coin,
+                                    url,
+                                    port,
+                                    "blockchain.headers.subscribe",
+                                    [],
+                                    protocol.lower(),
+                                    node_type='electrum'
+                                )
                             )
-                        )
                     else:
-                        protocol_lists['tcp'].append(coin)
-                        thread_list.append(
-                            scan_thread(
-                                coin,
-                                url,
-                                port,
-                                "blockchain.headers.subscribe",
-                                [],
-                                "tcp",
-                                node_type='electrum'
+                        # Default to TCP if no protocol specified and TCP not disabled
+                        if "TCP" not in disabled_protocols:
+                            protocol_lists['tcp'].append(coin)
+                            thread_list.append(
+                                scan_thread(
+                                    coin,
+                                    url,
+                                    port,
+                                    "blockchain.headers.subscribe",
+                                    [],
+                                    "tcp",
+                                    node_type='electrum'
+                                )
                             )
-                        )
 
         
     for thread in thread_list:
