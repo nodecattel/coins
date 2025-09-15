@@ -976,10 +976,12 @@
         }
       },
       "electrum1.btcz.rocks:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757895281": "online"
       },
       "electrum1.btcz.rocks:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1757895281": "online"
       },
       "electrum2.btcz.rocks:50001": {
         "1755770395": "online"
