@@ -1,0 +1,17 @@
+[
+  {
+    "url": "electrumx1.mydogecoin.fun:60001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "electrumx2.mydogecoin.fun:60001",
+    "protocol": "TCP"
+  },
+  {
+    "url": "electrumx3.mydogecoin.fun:60001",
+    "protocol": "TCP",
+    "disabled": [
+      "TCP"
+    ]
+  }
+]
