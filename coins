@@ -4404,7 +4404,7 @@
     "protocol": {
       "type": "UTXO"
     },
-    "derivation_path": "m/44'/7cb'",
+    "derivation_path": "m/44'/1995'",
     "trezor_coin": "Mydogecoin",
     "links": {
       "github": "https://github.com/mydogecoin-project/mydogecoin",
