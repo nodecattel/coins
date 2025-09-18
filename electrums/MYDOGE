@@ -20,10 +20,7 @@
   {
     "url": "electrumx1.mydogecoin.fun:60002",
     "protocol": "SSL",
-    "ws_url": "electrumx1.mydogecoin.fun:60003",
-    "disabled": [
-      "WSS"
-    ]
+    "ws_url": "electrumx1.mydogecoin.fun:60003"
   },
   {
     "url": "electrumx2.mydogecoin.fun:60002",
