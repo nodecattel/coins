@@ -691,7 +691,8 @@
         "1755770395": "online"
       },
       "electrumx1.briskcoin.org:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758289389": "offline"
       },
       "electrumx2.briskcoin.org:50001": {
         "1755770395": "online"
@@ -1680,15 +1681,18 @@
       },
       "electrumx1.dimecoinnetwork.com:50001": {
         "1755770395": "offline",
-        "1757307678": "online"
+        "1757307678": "online",
+        "1758289389": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
         "1755770395": "offline",
-        "1757307678": "online"
+        "1757307678": "online",
+        "1758289389": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
         "1755770395": "offline",
-        "1757307678": "online"
+        "1757307678": "online",
+        "1758289389": "offline"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -3975,10 +3979,12 @@
         "1755770395": "online"
       },
       "meowcoinelectrum.xyz:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1758289389": "online"
       },
       "meowcoinelectrum.xyz:50004": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1758289389": "online"
       },
       "meowelectrum.xyz:50002": {
         "1755770395": "online"
@@ -4046,6 +4052,31 @@
       },
       "wss://wss.api.moonriver.moonbeam.network": {
         "1755770395": "online"
+      }
+    }
+  },
+  "MYDOGE": {
+    "all": {
+      "1758289389": "online"
+    },
+    "by_server": {
+      "electrumx1.mydogecoin.fun:60001": {
+        "1758289389": "online"
+      },
+      "electrumx1.mydogecoin.fun:60002": {
+        "1758289389": "online"
+      },
+      "electrumx1.mydogecoin.fun:60003": {
+        "1758289389": "online"
+      },
+      "electrumx2.mydogecoin.fun:60001": {
+        "1758289389": "online"
+      },
+      "electrumx2.mydogecoin.fun:60002": {
+        "1758289389": "online"
+      },
+      "electrumx2.mydogecoin.fun:60003": {
+        "1758289389": "online"
       }
     }
   },
@@ -4653,6 +4684,21 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum.newyorkcoin.online:50004": {
+          "contact": [
+            {
+              "email": "admin@newyorkcoin.online"
+            }
+          ]
+        }
+      },
+      "electrum.newyorkcoin.online:50002": {
+        "1758289389": "online"
+      },
+      "electrum.newyorkcoin.online:50004": {
+        "1758289389": "offline"
+      },
       "nyc.newyorkcoin.online:50002": {
         "1755770395": "online"
       },
@@ -4668,7 +4714,8 @@
         "1755770395": "online",
         "1756519454": "offline",
         "1757307678": "online",
-        "1757795910": "offline"
+        "1757795910": "offline",
+        "1758289389": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -4749,14 +4796,17 @@
   },
   "PINK": {
     "all": {
-      "1755770395": "offline"
+      "1755770395": "offline",
+      "1758289389": "online"
     },
     "by_server": {
       "pink-one.ewm-cx.net:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1758289389": "online"
       },
       "pink-two.ewm-cx.net:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1758289389": "online"
       }
     }
   },
