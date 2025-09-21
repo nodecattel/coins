@@ -4715,7 +4715,8 @@
         "1756519454": "offline",
         "1757307678": "online",
         "1757795910": "offline",
-        "1758289389": "online"
+        "1758289389": "online",
+        "1758413660": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -6051,6 +6052,29 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "xvc-ex-seven.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "xvc-ex-seven.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "xvc-ex-seven.ewmci.online:50003": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        }
+      },
       "electrumx1.vanillacash.info:50011": {
         "1755770395": "online"
       },
@@ -6070,13 +6094,16 @@
         "1755770395": "online"
       },
       "xvc-ex-seven.ewmci.online:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758413660": "offline"
       },
       "xvc-ex-seven.ewmci.online:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758413660": "offline"
       },
       "xvc-ex-seven.ewmci.online:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758413660": "offline"
       }
     }
   },
