@@ -1489,6 +1489,31 @@
       }
     }
   },
+  "DEV": {
+    "all": {
+      "1758502268": "online"
+    },
+    "by_server": {
+      "api.dogecoinev.com:50001": {
+        "1758502268": "online"
+      },
+      "api.dogecoinev.com:50002": {
+        "1758502268": "online"
+      },
+      "api.dogecoinev.com:50003": {
+        "1758502268": "online"
+      },
+      "api2.dogecoinev.com:50001": {
+        "1758502268": "online"
+      },
+      "api2.dogecoinev.com:50002": {
+        "1758502268": "online"
+      },
+      "api2.dogecoinev.com:50003": {
+        "1758502268": "online"
+      }
+    }
+  },
   "DGB": {
     "all": {
       "1755770395": "online"
@@ -3055,6 +3080,44 @@
               "discord": "475820011634819072"
             }
           ]
+        },
+        "il9p.electrumx.transcenders.name:50002": {
+          "contact": [
+            {
+              "email": "coins@ewmci.com"
+            },
+            {
+              "discord": "[CryptoStan]#9341"
+            },
+            {
+              "twitter": "EwmciL"
+            },
+            {
+              "reddit": "InfiniLooP"
+            },
+            {
+              "github": "WikiMin3R"
+            }
+          ]
+        },
+        "il9p.electrumx.transcenders.name:50003": {
+          "contact": [
+            {
+              "email": "coins@ewmci.com"
+            },
+            {
+              "discord": "[CryptoStan]#9341"
+            },
+            {
+              "twitter": "EwmciL"
+            },
+            {
+              "reddit": "InfiniLooP"
+            },
+            {
+              "github": "WikiMin3R"
+            }
+          ]
         }
       },
       "il8p-ex-five.ewmci.online:50001": {
@@ -3073,10 +3136,12 @@
         "1755770395": "online"
       },
       "il9p.electrumx.transcenders.name:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758502268": "offline"
       },
       "il9p.electrumx.transcenders.name:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758502268": "offline"
       }
     }
   },
@@ -4716,7 +4781,8 @@
         "1757307678": "online",
         "1757795910": "offline",
         "1758289389": "online",
-        "1758413660": "offline"
+        "1758413660": "offline",
+        "1758502268": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -5097,6 +5163,36 @@
     },
     "by_server": {
       "_metadata": {
+        "electrum2.runebase.io:50001": {
+          "contact": [
+            {
+              "email": "support@runebase.io"
+            },
+            {
+              "discord": "Bago#7842"
+            }
+          ]
+        },
+        "electrum2.runebase.io:50002": {
+          "contact": [
+            {
+              "email": "support@runebase.io"
+            },
+            {
+              "discord": "Bago#7842"
+            }
+          ]
+        },
+        "electrum2.runebase.io:50004": {
+          "contact": [
+            {
+              "email": "support@runebase.io"
+            },
+            {
+              "discord": "Bago#7842"
+            }
+          ]
+        },
         "electrum3.runebase.io:50001": {
           "contact": [
             {
@@ -5162,13 +5258,16 @@
         "1755770395": "online"
       },
       "electrum2.runebase.io:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758502268": "offline"
       },
       "electrum2.runebase.io:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758502268": "offline"
       },
       "electrum2.runebase.io:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1758502268": "offline"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
@@ -6321,15 +6420,18 @@
       },
       "zet-ex-three.ewmci.online:50011": {
         "1755770395": "offline",
-        "1757795910": "online"
+        "1757795910": "online",
+        "1758502268": "offline"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
-        "1757795910": "online"
+        "1757795910": "online",
+        "1758502268": "offline"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
-        "1757795910": "online"
+        "1757795910": "online",
+        "1758502268": "offline"
       }
     }
   },
