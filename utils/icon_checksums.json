@@ -1870,5 +1870,9 @@
   "mydoge.png": {
     "original": "5bc4534dde075c2b5cd8bb9aff0ad64440f892b807d90e98f770bcdf353cfde6",
     "processed": "655b63cf0741421bc7a647deb02d526a445c917f0a912b2345d207699cbc4b13"
+  },
+  "dev.png": {
+    "original": "0bbef2c0c706672a538234dbfa0e4ae05be2966ab4554d0d17328f66b1050b77",
+    "processed": "cd39784c1486d66f1a40c7dcd14534cec2d92f766f44a8783112d08be8fbd0c2"
   }
 }
