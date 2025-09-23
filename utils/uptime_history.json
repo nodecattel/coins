@@ -1733,7 +1733,8 @@
   "DIMI": {
     "all": {
       "1755770395": "online",
-      "1757307678": "offline"
+      "1757307678": "offline",
+      "1758586414": "online"
     },
     "by_server": {
       "_metadata": {
@@ -1798,11 +1799,13 @@
       },
       "electrumx2.diminutivecoin.com:50012": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1758586414": "online"
       },
       "electrumx2.diminutivecoin.com:50013": {
         "1755770395": "online",
-        "1757307678": "offline"
+        "1757307678": "offline",
+        "1758586414": "online"
       }
     }
   },
@@ -3137,11 +3140,13 @@
       },
       "il9p.electrumx.transcenders.name:50002": {
         "1755770395": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1758586414": "online"
       },
       "il9p.electrumx.transcenders.name:50003": {
         "1755770395": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1758586414": "online"
       }
     }
   },
@@ -4762,7 +4767,8 @@
         "1758289389": "online"
       },
       "electrum.newyorkcoin.online:50004": {
-        "1758289389": "offline"
+        "1758289389": "offline",
+        "1758586414": "online"
       },
       "nyc.newyorkcoin.online:50002": {
         "1755770395": "online"
