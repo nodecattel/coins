@@ -2441,6 +2441,12 @@
             "https://electrum2.cipig.net:9447",
             "https://electrum3.cipig.net:9447"
         ],
+        "light_wallet_d_servers_wss": [
+            "https://pirate.spyglass.quest:19447",
+            "https://electrum1.cipig.net:19447",
+            "https://electrum2.cipig.net:19447",
+            "https://electrum3.cipig.net:19447"
+        ],
         "asset": "PIRATE",
         "fname": "Pirate",
         "is_privacy_coin": true,
@@ -31886,6 +31892,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -51546,6 +51555,7 @@
         "light_wallet_d_servers": [
             "https://zombie.dragonhound.info:1443"
         ],
+        "light_wallet_d_servers_wss": [],
         "asset": "ZOMBIE",
         "fname": "Zombie",
         "is_privacy_coin": true,
@@ -51640,6 +51650,7 @@
             "https://zdeexlightd1.zdeex.org:9067",
             "https://zdeexlightd2.zdeex.org:9067"
         ],
+        "light_wallet_d_servers_wss": [],
         "asset": "ZDEEX",
         "fname": "Zdeex",
         "is_privacy_coin": true,
