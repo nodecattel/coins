@@ -4788,7 +4788,8 @@
         "1757795910": "offline",
         "1758289389": "online",
         "1758413660": "offline",
-        "1758502268": "online"
+        "1758502268": "online",
+        "1758860393": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -5265,15 +5266,18 @@
       },
       "electrum2.runebase.io:50001": {
         "1755770395": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1758860393": "online"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1758860393": "online"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1758860393": "online"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
