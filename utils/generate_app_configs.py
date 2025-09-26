@@ -893,28 +893,28 @@ def filter_wss(coins_config):
             
         if "electrum" in coins_config[coin]:
             electrums = []
-            for i in coins_config[coin]["electrum"]:
-                if "protocol" in i:
-                    if i["protocol"] == "WSS":
-                        electrums.append(i)
+            for electrum_server in coins_config[coin]["electrum"]:
+                if "protocol" in electrum_server:
+                    if electrum_server["protocol"] == "WSS":
+                        electrums.append(electrum_server)
                 else:
-                    logger.warning(f"No protocol data in {i}")
+                    logger.warning(f"No protocol data in {electrum_server}")
             if len(electrums) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["electrum"] = electrums
         elif "nodes" in coins_config[coin]:
             nodes = []
-            for i in coins_config[coin]["nodes"]:
-                if "ws_url" in i:
-                    nodes.append(i)
+            for node in coins_config[coin]["nodes"]:
+                if "ws_url" in node:
+                    nodes.append(node)
             if len(nodes) > 0:
                 coins_config_wss.update({coin: coins_config[coin]})
                 coins_config_wss[coin]["nodes"] = nodes
         elif "light_wallet_d_servers_wss" in coins_config[coin]:
             coins_config_wss[coin]["light_wallet_d_servers_wss"] = [
-                i
-                for i in coins_config[coin]["light_wallet_d_servers_wss"]
-                if i.startswith("https")
+                server_url
+                for server_url in coins_config[coin]["light_wallet_d_servers_wss"]
+                if server_url.startswith("https")
             ]
         else:
             logger.warning(f"{coin} not checked for WSS filter yet, including anyway.")
