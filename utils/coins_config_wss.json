@@ -1829,10 +1829,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -3118,10 +3114,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -7517,10 +7509,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -8714,10 +8702,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -10675,10 +10659,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -12051,10 +12031,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/",
@@ -12269,10 +12245,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -15317,10 +15289,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -15536,10 +15504,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -15879,10 +15843,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -16927,28 +16887,6 @@
             "homepage": "https://infiniloop.io"
         },
         "electrum": [
-            {
-                "url": "il8p.electrumx.transcenders.name:50003",
-                "protocol": "WSS",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
             {
                 "url": "il9p.electrumx.transcenders.name:50003",
                 "protocol": "WSS",
@@ -22057,10 +21995,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -24039,10 +23973,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -26061,10 +25991,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -26348,10 +26274,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -30216,10 +30138,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -31744,10 +31662,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -33729,10 +33643,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -34477,10 +34387,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"
@@ -35868,10 +35774,6 @@
             {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
-            },
-            {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
             }
         ],
         "explorer_block_url": "block/"

@@ -2080,12 +2080,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -3477,12 +3479,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -4344,6 +4348,142 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BC2": {
+        "coin": "BC2",
+        "type": "UTXO",
+        "name": "Bitcoin II",
+        "coinpaprika_id": "bc2-bitcoin-ii",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BC2",
+        "explorer_url": "https://bitcoinii.ddns.net/explorer/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin II",
+        "rpcport": 8332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "bc",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/BitcoinII-Dev/BitcoinII",
+            "homepage": "https://bitcoin-ii.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum-02.bitcoinii.network:40004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
+            },
+            {
+                "url": "electrum-03.bitcoinii.network:40006",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.bitcoinii.network:40002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "BC2-segwit": {
+        "coin": "BC2-segwit",
+        "type": "UTXO",
+        "name": "Bitcoin II",
+        "coinpaprika_id": "bc2-bitcoin-ii",
+        "coingecko_id": "",
+        "livecoinwatch_id": "BC2",
+        "explorer_url": "https://bitcoinii.ddns.net/explorer/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "Bitcoin Signed Message:\n",
+        "fname": "Bitcoin II",
+        "rpcport": 8332,
+        "pubtype": 0,
+        "p2shtype": 5,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "bc",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "BC2",
+        "txfee": 1000,
+        "mm2": 1,
+        "required_confirmations": 2,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "links": {
+            "github": "https://github.com/BitcoinII-Dev/BitcoinII",
+            "homepage": "https://bitcoin-ii.org"
+        },
+        "electrum": [
+            {
+                "url": "electrum-02.bitcoinii.network:40004",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
+            },
+            {
+                "url": "electrum-03.bitcoinii.network:40006",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
+            },
+            {
+                "url": "electrum.bitcoinii.network:40002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "777703913125314580"
+                    }
+                ]
             }
         ],
         "explorer_block_url": "block/"
@@ -8203,12 +8343,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -9582,12 +9724,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -11665,12 +11809,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -13250,12 +13396,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             }
         ],
         "explorer_block_url": "block/",
@@ -13524,12 +13672,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -16711,12 +16861,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -16952,12 +17104,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -17285,12 +17439,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -18482,28 +18638,6 @@
             "homepage": "https://infiniloop.io"
         },
         "electrum": [
-            {
-                "url": "il8p.electrumx.transcenders.name:50002",
-                "protocol": "SSL",
-                "disable_cert_verification": true,
-                "contact": [
-                    {
-                        "email": "coins@ewmci.com"
-                    },
-                    {
-                        "discord": "[CryptoStan]#9341"
-                    },
-                    {
-                        "twitter": "EwmciL"
-                    },
-                    {
-                        "reddit": "InfiniLooP"
-                    },
-                    {
-                        "github": "WikiMin3R"
-                    }
-                ]
-            },
             {
                 "url": "il9p.electrumx.transcenders.name:50002",
                 "protocol": "SSL",
@@ -23893,12 +24027,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -26169,12 +26305,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -28453,12 +28591,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -28755,12 +28895,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -32934,12 +33076,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -34632,12 +34776,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -36933,12 +37079,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -37818,12 +37966,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
@@ -39278,12 +39428,14 @@
                 "url": "https://arb1.arbitrum.io/rpc"
             },
             {
+                "url": "https://arb1.lava.build"
+            },
+            {
                 "url": "https://arbitrum-one-rpc.publicnode.com",
                 "ws_url": "wss://arbitrum-one-rpc.publicnode.com"
             },
             {
-                "url": "https://arbitrum.meowrpc.com",
-                "ws_url": "wss://arbitrum.callstaticrpc.com"
+                "url": "https://arbitrum.drpc.org"
             },
             {
                 "url": "https://node.komodo.earth:8080/arbitrum",
