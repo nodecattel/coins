@@ -522,6 +522,120 @@
       }
     }
   },
+  "BC2": {
+    "all": {
+      "1759220463": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum-02.bitcoinii.network:40104": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        },
+        "electrum-03.bitcoinii.network:40106": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        },
+        "electrum.bitcoinii.network:40102": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        }
+      },
+      "electrum-02.bitcoinii.network:40003": {
+        "1759220463": "online"
+      },
+      "electrum-02.bitcoinii.network:40004": {
+        "1759220463": "online"
+      },
+      "electrum-02.bitcoinii.network:40104": {
+        "1759220463": "offline"
+      },
+      "electrum-03.bitcoinii.network:40005": {
+        "1759220463": "online"
+      },
+      "electrum-03.bitcoinii.network:40006": {
+        "1759220463": "online"
+      },
+      "electrum-03.bitcoinii.network:40106": {
+        "1759220463": "offline"
+      },
+      "electrum.bitcoinii.network:40001": {
+        "1759220463": "online"
+      },
+      "electrum.bitcoinii.network:40002": {
+        "1759220463": "online"
+      },
+      "electrum.bitcoinii.network:40102": {
+        "1759220463": "offline"
+      }
+    }
+  },
+  "BC2-segwit": {
+    "all": {
+      "1759220463": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum-02.bitcoinii.network:40104": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        },
+        "electrum-03.bitcoinii.network:40106": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        },
+        "electrum.bitcoinii.network:40102": {
+          "contact": [
+            {
+              "discord": "777703913125314580"
+            }
+          ]
+        }
+      },
+      "electrum-02.bitcoinii.network:40003": {
+        "1759220463": "online"
+      },
+      "electrum-02.bitcoinii.network:40004": {
+        "1759220463": "online"
+      },
+      "electrum-02.bitcoinii.network:40104": {
+        "1759220463": "offline"
+      },
+      "electrum-03.bitcoinii.network:40005": {
+        "1759220463": "online"
+      },
+      "electrum-03.bitcoinii.network:40006": {
+        "1759220463": "online"
+      },
+      "electrum-03.bitcoinii.network:40106": {
+        "1759220463": "offline"
+      },
+      "electrum.bitcoinii.network:40001": {
+        "1759220463": "online"
+      },
+      "electrum.bitcoinii.network:40002": {
+        "1759220463": "online"
+      },
+      "electrum.bitcoinii.network:40102": {
+        "1759220463": "offline"
+      }
+    }
+  },
   "BCH": {
     "all": {
       "1755770395": "online"
@@ -2189,8 +2303,14 @@
       "https://arb1.arbitrum.io/rpc": {
         "1755770395": "online"
       },
+      "https://arb1.lava.build": {
+        "1759220463": "online"
+      },
       "https://arbitrum-one-rpc.publicnode.com": {
         "1755770395": "online"
+      },
+      "https://arbitrum.drpc.org": {
+        "1759220463": "online"
       },
       "https://arbitrum.meowrpc.com": {
         "1755770395": "online"
@@ -3084,6 +3204,44 @@
             }
           ]
         },
+        "il8p.electrumx.transcenders.name:50002": {
+          "contact": [
+            {
+              "email": "coins@ewmci.com"
+            },
+            {
+              "discord": "[CryptoStan]#9341"
+            },
+            {
+              "twitter": "EwmciL"
+            },
+            {
+              "reddit": "InfiniLooP"
+            },
+            {
+              "github": "WikiMin3R"
+            }
+          ]
+        },
+        "il8p.electrumx.transcenders.name:50003": {
+          "contact": [
+            {
+              "email": "coins@ewmci.com"
+            },
+            {
+              "discord": "[CryptoStan]#9341"
+            },
+            {
+              "twitter": "EwmciL"
+            },
+            {
+              "reddit": "InfiniLooP"
+            },
+            {
+              "github": "WikiMin3R"
+            }
+          ]
+        },
         "il9p.electrumx.transcenders.name:50002": {
           "contact": [
             {
@@ -3133,10 +3291,12 @@
         "1755770395": "offline"
       },
       "il8p.electrumx.transcenders.name:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1759220463": "offline"
       },
       "il8p.electrumx.transcenders.name:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1759220463": "offline"
       },
       "il9p.electrumx.transcenders.name:50002": {
         "1755770395": "online",
