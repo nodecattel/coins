@@ -1821,17 +1821,20 @@
       "electrumx1.dimecoinnetwork.com:50001": {
         "1755770395": "offline",
         "1757307678": "online",
-        "1758289389": "offline"
+        "1758289389": "offline",
+        "1759303900": "online"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
         "1755770395": "offline",
         "1757307678": "online",
-        "1758289389": "offline"
+        "1758289389": "offline",
+        "1759303900": "online"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
         "1755770395": "offline",
         "1757307678": "online",
-        "1758289389": "offline"
+        "1758289389": "offline",
+        "1759303900": "online"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -4950,7 +4953,8 @@
         "1758413660": "offline",
         "1758502268": "online",
         "1758860393": "offline",
-        "1758914182": "online"
+        "1758914182": "online",
+        "1759303900": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -6592,17 +6596,20 @@
       "zet-ex-three.ewmci.online:50011": {
         "1755770395": "offline",
         "1757795910": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1759303900": "online"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
         "1757795910": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1759303900": "online"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
         "1757795910": "online",
-        "1758502268": "offline"
+        "1758502268": "offline",
+        "1759303900": "online"
       }
     }
   },
