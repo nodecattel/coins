@@ -13319,6 +13319,42 @@
         },
         "electrum": [
             {
+                "url": "electrumx1.dimecoinnetwork.com:50001",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ],
+                "protocol": "TCP"
+            },
+            {
+                "url": "electrumx1.dimecoinnetwork.com:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx1.dimecoinnetwork.com:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "developer@dimecoinnetwork.com"
+                    },
+                    {
+                        "discord": "dhop14#9359"
+                    }
+                ]
+            },
+            {
                 "url": "electrumx2.dimecoinnetwork.com:50001",
                 "contact": [
                     {
@@ -32062,9 +32098,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -33796,7 +33829,7 @@
         "type": "BEP-20",
         "name": "PRivaCY Coin",
         "coinpaprika_id": "prcy-privacy-coin",
-        "coingecko_id": "privacy-coin",
+        "coingecko_id": "prcy-coin",
         "livecoinwatch_id": "PRCY",
         "explorer_url": "https://bscscan.com/",
         "explorer_tx_url": "tx/",
@@ -33850,7 +33883,7 @@
         "type": "ERC-20",
         "name": "PRivaCY Coin",
         "coinpaprika_id": "prcy-privacy-coin",
-        "coingecko_id": "privacy-coin",
+        "coingecko_id": "prcy-coin",
         "livecoinwatch_id": "PRCY",
         "explorer_url": "https://etherscan.io/",
         "explorer_tx_url": "tx/",
@@ -33915,7 +33948,7 @@
         "type": "Matic",
         "name": "PRivaCY Coin",
         "coinpaprika_id": "prcy-privacy-coin",
-        "coingecko_id": "privacy-coin",
+        "coingecko_id": "prcy-coin",
         "livecoinwatch_id": "PRCY",
         "explorer_url": "https://polygonscan.com/",
         "explorer_tx_url": "tx/",
@@ -47976,6 +48009,33 @@
             {
                 "url": "zet-ex-four.ewmci.online:50002",
                 "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50011",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50012",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "discord": "475820011634819072"
+                    }
+                ]
+            },
+            {
+                "url": "zet-ex-three.ewmci.online:50013",
+                "protocol": "WSS",
                 "contact": [
                     {
                         "discord": "475820011634819072"
