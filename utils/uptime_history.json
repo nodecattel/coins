@@ -1512,13 +1512,16 @@
         }
       },
       "coin.crionic.org:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1759450423": "online"
       },
       "coin.crionic.org:50002": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1759450423": "online"
       },
       "coin.crionic.org:50005": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1759450423": "online"
       },
       "explorer.crionic.org:50001": {
         "1755770395": "online"
@@ -4954,7 +4957,8 @@
         "1758502268": "online",
         "1758860393": "offline",
         "1758914182": "online",
-        "1759303900": "offline"
+        "1759303900": "offline",
+        "1759450423": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
