@@ -27993,6 +27993,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -45335,6 +45338,18 @@
             "homepage": "https://coin.crionic.org"
         },
         "electrum": [
+            {
+                "url": "coin.crionic.org:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "diabatiis@gmail.com"
+                    },
+                    {
+                        "discord": "Diabaths#1919"
+                    }
+                ]
+            },
             {
                 "url": "explorer.crionic.org:50002",
                 "protocol": "SSL",
