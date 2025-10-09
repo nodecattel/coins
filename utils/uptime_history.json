@@ -2612,7 +2612,8 @@
     "all": {},
     "by_server": {
       "https://fantom-rpc.publicnode.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1759968796": "offline"
       },
       "https://fantom.drpc.org": {
         "1755770395": "online"
@@ -2621,7 +2622,8 @@
         "1755770395": "offline"
       },
       "wss://fantom-rpc.publicnode.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1759968796": "offline"
       },
       "wss://fantom.drpc.org": {
         "1755770395": "online"
@@ -4305,6 +4307,15 @@
       "electrumx1.mydogecoin.fun:60003": {
         "1758289389": "online"
       },
+      "electrumx1.mydogecoin.info:60001": {
+        "1759968796": "online"
+      },
+      "electrumx1.mydogecoin.info:60002": {
+        "1759968796": "online"
+      },
+      "electrumx1.mydogecoin.info:60003": {
+        "1759968796": "online"
+      },
       "electrumx2.mydogecoin.fun:60001": {
         "1758289389": "online"
       },
@@ -4313,6 +4324,15 @@
       },
       "electrumx2.mydogecoin.fun:60003": {
         "1758289389": "online"
+      },
+      "electrumx2.mydogecoin.info:60001": {
+        "1759968796": "online"
+      },
+      "electrumx2.mydogecoin.info:60002": {
+        "1759968796": "online"
+      },
+      "electrumx2.mydogecoin.info:60003": {
+        "1759968796": "online"
       }
     }
   },
