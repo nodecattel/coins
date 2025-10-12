@@ -2186,11 +2186,13 @@
       },
       "electrum3.egulden.org:50002": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1760228082": "online"
       },
       "electrum3.egulden.org:50004": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1760228082": "online"
       },
       "electrum5.egulden.org:11017": {
         "1755770395": "offline"
