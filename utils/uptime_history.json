@@ -2393,7 +2393,8 @@
         "1755770395": "online"
       },
       "wss://rpc.energyweb.org/ws": {
-        "1755987838": "online"
+        "1755987838": "online",
+        "1760350495": "offline"
       }
     }
   },
@@ -5100,7 +5101,8 @@
       "pink-two.ewm-cx.net:50001": {
         "1755770395": "offline",
         "1758289389": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1760350495": "online"
       }
     }
   },
@@ -5799,7 +5801,8 @@
   "TRC": {
     "all": {
       "1755770395": "online",
-      "1760163826": "offline"
+      "1760163826": "offline",
+      "1760350495": "online"
     },
     "by_server": {
       "electrum.southofheaven.ca:50001": {
@@ -5816,11 +5819,73 @@
       },
       "failover.trc-uis.ewmcx.biz:50006": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1760350495": "online"
       },
       "failover.trc-uis.ewmcx.biz:50007": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1760350495": "online"
+      }
+    }
+  },
+  "TRMP": {
+    "all": {
+      "1760350495": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrum-server1.trumpow.meme:50001": {
+          "contact": [
+            {
+              "discord": [
+                "1157581316175437884",
+                "1100673536743460894",
+                "1209163889489616998"
+              ]
+            }
+          ]
+        },
+        "electrum-server1.trumpow.meme:50002": {
+          "contact": [
+            {
+              "discord": [
+                "1157581316175437884",
+                "1100673536743460894",
+                "1209163889489616998"
+              ]
+            }
+          ]
+        },
+        "electrum-server1.trumpow.meme:50004": {
+          "contact": [
+            {
+              "discord": [
+                "1157581316175437884",
+                "1100673536743460894",
+                "1209163889489616998"
+              ]
+            }
+          ]
+        }
+      },
+      "electrum-server1.trumpow.meme:50001": {
+        "1760350495": "offline"
+      },
+      "electrum-server1.trumpow.meme:50002": {
+        "1760350495": "offline"
+      },
+      "electrum-server1.trumpow.meme:50004": {
+        "1760350495": "offline"
+      },
+      "electrum-server2.trumpow.meme:50001": {
+        "1760350495": "online"
+      },
+      "electrum-server2.trumpow.meme:50002": {
+        "1760350495": "online"
+      },
+      "electrum-server2.trumpow.meme:50004": {
+        "1760350495": "online"
       }
     }
   },
