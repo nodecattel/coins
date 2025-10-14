@@ -2394,7 +2394,8 @@
       },
       "wss://rpc.energyweb.org/ws": {
         "1755987838": "online",
-        "1760350495": "offline"
+        "1760350495": "offline",
+        "1760400771": "online"
       }
     }
   },
@@ -4059,7 +4060,8 @@
         "1755770395": "online"
       },
       "wss://polygon.gateway.tenderly.co": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1760400771": "offline"
       }
     }
   },
@@ -5870,13 +5872,16 @@
         }
       },
       "electrum-server1.trumpow.meme:50001": {
-        "1760350495": "offline"
+        "1760350495": "offline",
+        "1760400771": "online"
       },
       "electrum-server1.trumpow.meme:50002": {
-        "1760350495": "offline"
+        "1760350495": "offline",
+        "1760400771": "online"
       },
       "electrum-server1.trumpow.meme:50004": {
-        "1760350495": "offline"
+        "1760350495": "offline",
+        "1760400771": "online"
       },
       "electrum-server2.trumpow.meme:50001": {
         "1760350495": "online"
