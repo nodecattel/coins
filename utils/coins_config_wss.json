@@ -27515,6 +27515,19 @@
         },
         "electrum": [
             {
+                "url": "electrum-server1.trumpow.meme:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "discord": [
+                            "1157581316175437884",
+                            "1100673536743460894",
+                            "1209163889489616998"
+                        ]
+                    }
+                ]
+            },
+            {
                 "url": "electrum-server2.trumpow.meme:50004",
                 "protocol": "WSS",
                 "contact": [
