@@ -1,6 +1,9 @@
 {
   "rpc_nodes": [
     {
+      "url": "https://iris-rpc.publicnode.com"
+    },
+    {
       "url": "https://rpc.irishub-1.irisnet.org"
     }
   ]
