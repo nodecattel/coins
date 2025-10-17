@@ -1112,11 +1112,13 @@
       },
       "electrum1.btcz.rocks:50001": {
         "1755770395": "offline",
-        "1757895281": "online"
+        "1757895281": "online",
+        "1760706938": "offline"
       },
       "electrum1.btcz.rocks:50004": {
         "1755770395": "offline",
-        "1757895281": "online"
+        "1757895281": "online",
+        "1760706938": "offline"
       },
       "electrum2.btcz.rocks:50001": {
         "1755770395": "online",
@@ -3374,6 +3376,9 @@
       "https://iris-rpc.alpha.komodo.earth/": {
         "1755770395": "offline"
       },
+      "https://iris-rpc.publicnode.com": {
+        "1760706938": "online"
+      },
       "https://rpc.irishub-1.irisnet.org": {
         "1755770395": "online"
       },
@@ -4061,7 +4066,8 @@
       },
       "wss://polygon.gateway.tenderly.co": {
         "1755770395": "online",
-        "1760400771": "offline"
+        "1760400771": "offline",
+        "1760706938": "online"
       }
     }
   },
@@ -4241,6 +4247,20 @@
               "discord": "Meowmancer#2099"
             }
           ]
+        },
+        "meowelectrum.xyz:50002": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
+        },
+        "meowelectrum.xyz:50004": {
+          "contact": [
+            {
+              "discord": "Meowmancer#2099"
+            }
+          ]
         }
       },
       "electrum.mewccrypto.com:50002": {
@@ -4251,17 +4271,21 @@
       },
       "meowcoinelectrum.xyz:50002": {
         "1755770395": "offline",
-        "1758289389": "online"
+        "1758289389": "online",
+        "1760706938": "offline"
       },
       "meowcoinelectrum.xyz:50004": {
         "1755770395": "offline",
-        "1758289389": "online"
+        "1758289389": "online",
+        "1760706938": "offline"
       },
       "meowelectrum.xyz:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1760706938": "offline"
       },
       "meowelectrum.xyz:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1760706938": "offline"
       }
     }
   },
