@@ -3398,6 +3398,9 @@
     "by_server": {
       "https://evmrpc.nyancat.irisnet.org": {
         "1755770395": "offline"
+      },
+      "https://iristest-rpc.bravo.komodo.earth": {
+        "1760925665": "online"
       }
     }
   },
@@ -5042,7 +5045,8 @@
         "1758914182": "online",
         "1759303900": "offline",
         "1759450423": "online",
-        "1760919297": "offline"
+        "1760919297": "offline",
+        "1760925665": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
