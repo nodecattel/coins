@@ -18,7 +18,6 @@
         "UFO",
         "ZDEEX",
         "NITO-segwit",
-        "IRISTEST",
         "LUPA",
         "ZOIN"
     ],
@@ -72,8 +71,6 @@
         "electrumx.dgc.ewmcx.org:50003": 59,
         "electrumx1.diabasecoin.com:10002": 59,
         "electrumx2.diabasecoin.com:10002": 59,
-        "electrumx1.diminutivecoin.com:50012": 59,
-        "electrumx1.diminutivecoin.com:50013": 59,
         "pink-deer-69.doi.works:50001": 41,
         "pink-deer-69.doi.works:50002": 41,
         "pink-deer-69.doi.works:50004": 41,
@@ -173,7 +170,6 @@
         "seed1.ufocoin.net:50001": 59,
         "seed2.ufocoin.net:50001": 59,
         "uno-ex-one.ewmci.online:50003": 59,
-        "el2.verus.io:17488": 59,
         "electrumx.gemmer.primecoin.org:50011": 59,
         "blackie.c3-soft.com:52138": 59,
         "electrum.zdeex.org:17487": 59,
@@ -200,7 +196,6 @@
         "https://node.komodo.earth:8080/harmony": 59,
         "https://rpc.octano.dev": 59,
         "https://node.komodo.earth:8080/cosmos": 59,
-        "https://evmrpc.nyancat.irisnet.org": 59,
         "https://nucleus-rpc.delta.komodo.earth/": 59,
         "wss://nucleus-rpc.delta.komodo.earth/websocket": 59
     }
