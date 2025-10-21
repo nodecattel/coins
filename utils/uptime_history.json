@@ -970,6 +970,15 @@
       "1755770395": "online"
     },
     "by_server": {
+      "bsty-main.coinmunity.gold:50011": {
+        "1761086724": "online"
+      },
+      "bsty-main.coinmunity.gold:50012": {
+        "1761086724": "online"
+      },
+      "bsty-main.coinmunity.gold:50013": {
+        "1761086724": "online"
+      },
       "electrumserver01.globalboost.info:50011": {
         "1755770395": "offline",
         "1756345150": "online"
@@ -2395,13 +2404,15 @@
     "by_server": {
       "https://rpc.energyweb.org": {
         "1755770395": "online",
-        "1760919297": "offline"
+        "1760919297": "offline",
+        "1761086724": "online"
       },
       "wss://rpc.energyweb.org/ws": {
         "1755987838": "online",
         "1760350495": "offline",
         "1760400771": "online",
-        "1760919297": "offline"
+        "1760919297": "offline",
+        "1761086724": "online"
       }
     }
   },
@@ -4340,7 +4351,8 @@
     "all": {},
     "by_server": {
       "https://moonriver-rpc.dwellir.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761086724": "offline"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online"
@@ -4349,7 +4361,8 @@
         "1755770395": "online"
       },
       "wss://moonriver-rpc.dwellir.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761086724": "offline"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online"
@@ -5090,6 +5103,29 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "electrum.pepelum.site:50001": {
+          "contact": [
+            {
+              "discord": "emgi2"
+            }
+          ]
+        },
+        "electrum.pepelum.site:50002": {
+          "contact": [
+            {
+              "discord": "emgi2"
+            }
+          ]
+        },
+        "electrum.pepelum.site:50004": {
+          "contact": [
+            {
+              "discord": "emgi2"
+            }
+          ]
+        }
+      },
       "electrum.pepe.tips:50001": {
         "1755770395": "online"
       },
@@ -5109,13 +5145,16 @@
         "1755770395": "online"
       },
       "electrum.pepelum.site:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761086724": "offline"
       },
       "electrum.pepelum.site:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761086724": "offline"
       },
       "electrum.pepelum.site:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761086724": "offline"
       },
       "pep.electrum3.cipig.net:20076": {
         "1755770395": "online"
@@ -5526,17 +5565,20 @@
       "electrum2.runebase.io:50001": {
         "1755770395": "online",
         "1758502268": "offline",
-        "1758860393": "online"
+        "1758860393": "online",
+        "1761086724": "offline"
       },
       "electrum2.runebase.io:50002": {
         "1755770395": "online",
         "1758502268": "offline",
-        "1758860393": "online"
+        "1758860393": "online",
+        "1761086724": "offline"
       },
       "electrum2.runebase.io:50004": {
         "1755770395": "online",
         "1758502268": "offline",
-        "1758860393": "online"
+        "1758860393": "online",
+        "1761086724": "offline"
       },
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
