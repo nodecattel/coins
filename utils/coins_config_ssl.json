@@ -6294,6 +6294,10 @@
         },
         "electrum": [
             {
+                "url": "bsty-main.coinmunity.gold:50012",
+                "protocol": "SSL"
+            },
+            {
                 "url": "electrumserver01.globalboost.info:50014",
                 "protocol": "SSL"
             },
@@ -14104,6 +14108,50 @@
             {
                 "url": "https://polygon.gateway.tenderly.co",
                 "ws_url": "wss://polygon.gateway.tenderly.co"
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "EWT": {
+        "coin": "EWT",
+        "type": "EWT",
+        "name": "Energy Web",
+        "coinpaprika_id": "ewt-energy-web-token",
+        "coingecko_id": "energy-web-token",
+        "livecoinwatch_id": "EWT",
+        "explorer_url": "https://explorer.energyweb.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "fname": "Energy Web",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 246,
+        "use_access_list": true,
+        "max_eth_tx_type": 2,
+        "required_confirmations": 3,
+        "avg_blocktime": 5,
+        "protocol": {
+            "type": "ETH",
+            "protocol_data": {
+                "chain_id": 246
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "trezor_coin": "Energy Web",
+        "links": {
+            "homepage": "https://www.energyweb.org"
+        },
+        "swap_contract_address": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "fallback_swap_contract": "0x304896fc2F242f13dd852b412E7B60C5F495B79c",
+        "nodes": [
+            {
+                "url": "https://rpc.energyweb.org",
+                "ws_url": "wss://rpc.energyweb.org/ws"
             }
         ],
         "explorer_block_url": "block/"
@@ -26365,10 +26413,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
-            },
-            {
                 "url": "https://moonriver.unitedbloc.com",
                 "ws_url": "wss://moonriver.unitedbloc.com"
             },
@@ -28525,15 +28569,6 @@
                 "contact": [
                     {
                         "discord": "realmasterkush"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.pepelum.site:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "discord": "emgi2"
                     }
                 ]
             },
@@ -44925,18 +44960,6 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
-            {
-                "url": "electrum2.runebase.io:50002",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "support@runebase.io"
-                    },
-                    {
-                        "discord": "Bago#7842"
-                    }
-                ]
-            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
