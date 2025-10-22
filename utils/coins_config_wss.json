@@ -2031,7 +2031,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://pirate.spyglass.quest:9447",
             "https://lightd1.pirate.black:443",
             "https://piratelightd1.cryptoforge.cc:443",
             "https://piratelightd2.cryptoforge.cc:443",
@@ -2042,7 +2041,6 @@
             "https://electrum3.cipig.net:9447"
         ],
         "light_wallet_d_servers_wss": [
-            "https://pirate.spyglass.quest:19447",
             "https://electrum1.cipig.net:19447",
             "https://electrum2.cipig.net:19447",
             "https://electrum3.cipig.net:19447"
@@ -40925,6 +40923,18 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50004",
+                "protocol": "WSS",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.runebase.io:50004",
                 "protocol": "WSS",

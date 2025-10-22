@@ -2302,7 +2302,6 @@
         "currently_enabled": false,
         "wallet_only": false,
         "light_wallet_d_servers": [
-            "https://pirate.spyglass.quest:9447",
             "https://lightd1.pirate.black:443",
             "https://piratelightd1.cryptoforge.cc:443",
             "https://piratelightd2.cryptoforge.cc:443",
@@ -2313,7 +2312,6 @@
             "https://electrum3.cipig.net:9447"
         ],
         "light_wallet_d_servers_wss": [
-            "https://pirate.spyglass.quest:19447",
             "https://electrum1.cipig.net:19447",
             "https://electrum2.cipig.net:19447",
             "https://electrum3.cipig.net:19447"
@@ -28025,9 +28023,6 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://1rpc.io/one"
-            },
-            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -44960,6 +44955,18 @@
             "homepage": "https://www.runebase.io"
         },
         "electrum": [
+            {
+                "url": "electrum2.runebase.io:50002",
+                "protocol": "SSL",
+                "contact": [
+                    {
+                        "email": "support@runebase.io"
+                    },
+                    {
+                        "discord": "Bago#7842"
+                    }
+                ]
+            },
             {
                 "url": "electrum3.runebase.io:50002",
                 "protocol": "SSL",
