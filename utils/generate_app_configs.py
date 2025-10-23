@@ -149,6 +149,7 @@ class CoinConfig:
             "ETC": "Ethereum Classic",
             "ETH": "ERC-20",
             "ETH-ARB20": "Arbitrum",
+            "ETH-BASE": "Base",
             "EWT": "EWT",
             "FTM": "FTM-20",
             "GLMR": "Moonbeam",
