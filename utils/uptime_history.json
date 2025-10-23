@@ -2374,6 +2374,29 @@
       }
     }
   },
+  "ETH-BASE": {
+    "all": {},
+    "by_server": {
+      "https://base-rpc.publicnode.com": {
+        "1761238027": "online"
+      },
+      "https://base.gateway.tenderly.co": {
+        "1761238027": "online"
+      },
+      "https://base.llamarpc.com": {
+        "1761238027": "online"
+      },
+      "https://mainnet.base.org": {
+        "1761238027": "online"
+      },
+      "wss://base-rpc.publicnode.com": {
+        "1761238027": "online"
+      },
+      "wss://base.gateway.tenderly.co": {
+        "1761238027": "online"
+      }
+    }
+  },
   "EVR": {
     "all": {
       "1755770395": "online"
@@ -5060,7 +5083,8 @@
         "1759450423": "online",
         "1760919297": "offline",
         "1760925665": "online",
-        "1761145426": "offline"
+        "1761145426": "offline",
+        "1761238027": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
