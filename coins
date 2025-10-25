@@ -17375,7 +17375,8 @@
     "avg_blocktime": 10,
     "decimals": 8,
     "protocol": {
-      "type": "UTXO"
+      "type": "UTXO",
+      "bip44": 0
     }
   }
 ]
