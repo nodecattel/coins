@@ -1,0 +1,22 @@
+[
+  {
+    "url": "electrumx.fixedcoin.org:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "contact": [
+      {
+        "email": "support@fixedcoin.org"
+      }
+    ]
+  },
+  {
+    "url": "electrumx.nitopool.fr:50002",
+    "protocol": "SSL",
+    "disable_cert_verification": false,
+    "contact": [
+      {
+        "email": "support@nitopool.fr"
+      }
+    ]
+  }
+]
