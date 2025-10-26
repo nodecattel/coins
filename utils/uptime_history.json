@@ -4586,7 +4586,8 @@
   },
   "NITO-segwit": {
     "all": {
-      "1755770395": "offline"
+      "1755770395": "offline",
+      "1761437654": "online"
     },
     "by_server": {
       "_metadata": {
@@ -4652,7 +4653,8 @@
         }
       },
       "electrum1.nito.network:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1761437654": "online"
       },
       "electrum1.nito.network:50003": {
         "1755770395": "offline"
@@ -4661,7 +4663,8 @@
         "1755770395": "offline"
       },
       "electrum1.nitopool.fr:50001": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1761437654": "online"
       },
       "electrum1.nitopool.fr:50003": {
         "1755770395": "offline"
@@ -5084,7 +5087,8 @@
         "1760919297": "offline",
         "1760925665": "online",
         "1761145426": "offline",
-        "1761238027": "online"
+        "1761238027": "online",
+        "1761437654": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
