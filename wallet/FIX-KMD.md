@@ -1,9 +1,9 @@
-# FIX (FixrdCoin)
+# FIX (FixedCoin)
 
 ## Coin Information
 
 **Ticker:** FIX  
-**Full Name:** FixrdCoin  
+**Full Name:** FixedCoin  
 **Type:** UTXO-based cryptocurrency  
 **Block Time:** ~10 minutes  
 **Decimals:** 8
