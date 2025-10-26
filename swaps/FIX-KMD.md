@@ -11,7 +11,7 @@
 **Official Links:**
 - Website: https://web.fixedcoin.org/
 - Explorer: https://explorer.fixedcoin.org/
-- GitHub: https://github.com/fixrdcoin/fixrdcoin
+- GitHub: https://github.com/biigbang0001/fixedcoin
 
 ---
 
