@@ -21,23 +21,31 @@
   "coin": "FIX",
   "name": "fixedcoin",
   "fname": "FixedCoin",
-  "asset": "FIX",
   "rpcport": 24761,
+  "txversion": 1,
   "pubtype": 1,
   "p2shtype": 0,
   "wiftype": 128,
   "txfee": 1000,
   "dust": 10000,
-  "overwintered": 0,
   "mm2": 1,
   "required_confirmations": 3,
   "mature_confirmations": 101,
-  "avg_blocktime": 10,
+  "avg_blocktime": 600,
   "decimals": 8,
   "protocol": {
-    "type": "UTXO"
+    "type": "UTXO",
+    "bip44": 0
+  },
+  "derivation_path": "m/44'/0'/0'",
+  "sign_message_prefix": "FixedCoin Signed Message:
+",
+  "links": {
+    "github": "https://github.com/biigbang0001/fixedcoin",
+    "homepage": "https://web.fixedcoin.org"
   }
 }
+
 ```
 
 ---
