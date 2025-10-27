@@ -37,7 +37,7 @@
     "type": "UTXO",
     "bip44": 0
   },
-  "derivation_path": "m/44'/0'/0'",
+  "derivation_path": "m/44'/0'",
   "sign_message_prefix": "FixedCoin Signed Message:
 ",
   "links": {
