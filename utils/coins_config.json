@@ -32226,6 +32226,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -35905,32 +35908,8 @@
             "github": "https://github.com/reddcoin-project/reddcoin",
             "homepage": "https://reddcoin.com"
         },
-        "electrum": [
-            {
-                "url": "electrum01.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum01.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum02.reddcoin.com:50004",
-                "protocol": "WSS"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50002",
-                "protocol": "SSL"
-            },
-            {
-                "url": "electrum03.reddcoin.com:50004",
-                "protocol": "WSS"
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "REN-ERC20": {
@@ -44967,22 +44946,6 @@
             {
                 "url": "el2.verus.io:17486",
                 "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "0x03-ctrlc@protonmail.com"
-                    },
-                    {
-                        "discord": "0x03#8822"
-                    },
-                    {
-                        "keybase": "bloodynora"
-                    }
-                ],
-                "disable_cert_verification": false
-            },
-            {
-                "url": "el2.verus.io:17488",
-                "protocol": "WSS",
                 "contact": [
                     {
                         "email": "0x03-ctrlc@protonmail.com"
@@ -54223,6 +54186,96 @@
                 "contact": [
                     {
                         "discord": "635448663543644170"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "FIX": {
+        "coin": "FIX",
+        "type": "UTXO",
+        "name": "FixedCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.fixedcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "FixedCoin Signed Message:\n",
+        "fname": "FixedCoin",
+        "rpcport": 24761,
+        "txversion": 1,
+        "pubtype": 1,
+        "p2shtype": 0,
+        "wiftype": 128,
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 101,
+        "avg_blocktime": 600,
+        "decimals": 8,
+        "protocol": {
+            "type": "UTXO",
+            "bip44": 0
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/biigbang0001/fixedcoin",
+            "homepage": "https://web.fixedcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.fixedcoin.org:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@fixedcoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.fixedcoin.org:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@fixedcoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.fixedcoin.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@fixedcoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.nitopool.fr:50001",
+                "protocol": "TCP",
+                "contact": [
+                    {
+                        "email": "support@nitopool.fr"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.nitopool.fr:50002",
+                "protocol": "SSL",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@nitopool.fr"
                     }
                 ]
             }

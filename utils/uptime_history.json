@@ -2482,6 +2482,40 @@
       }
     }
   },
+  "FIX": {
+    "all": {
+      "1761579168": "online"
+    },
+    "by_server": {
+      "_metadata": {
+        "electrumx.nitopool.fr:50004": {
+          "contact": [
+            {
+              "email": "support@nitopool.fr"
+            }
+          ]
+        }
+      },
+      "electrumx.fixedcoin.org:50001": {
+        "1761579168": "online"
+      },
+      "electrumx.fixedcoin.org:50002": {
+        "1761579168": "online"
+      },
+      "electrumx.fixedcoin.org:50004": {
+        "1761579168": "online"
+      },
+      "electrumx.nitopool.fr:50001": {
+        "1761579168": "online"
+      },
+      "electrumx.nitopool.fr:50002": {
+        "1761579168": "online"
+      },
+      "electrumx.nitopool.fr:50004": {
+        "1761579168": "offline"
+      }
+    }
+  },
   "FJC": {
     "all": {
       "1755770395": "online"
@@ -5088,7 +5122,8 @@
         "1760925665": "online",
         "1761145426": "offline",
         "1761238027": "online",
-        "1761437654": "offline"
+        "1761437654": "offline",
+        "1761579168": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -5399,26 +5434,33 @@
   },
   "RDD": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1761579168": "offline"
     },
     "by_server": {
       "electrum01.reddcoin.com:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       },
       "electrum01.reddcoin.com:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       },
       "electrum02.reddcoin.com:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       },
       "electrum02.reddcoin.com:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       },
       "electrum03.reddcoin.com:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       },
       "electrum03.reddcoin.com:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1761579168": "offline"
       }
     }
   },
@@ -6296,7 +6338,8 @@
       },
       "el2.verus.io:17488": {
         "1755770395": "offline",
-        "1760919297": "online"
+        "1760919297": "online",
+        "1761579168": "offline"
       }
     }
   },
