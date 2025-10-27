@@ -1882,5 +1882,9 @@
   "trmp.png": {
     "original": "c99a3954130ab53051a5e264886b6ac55509fb3ca51d4c3e9b205241c8e25cc7",
     "processed": "2f561eef55216d45c30409316d326ea111115506b11cf187322d71509111f65a"
+  },
+  "fix.png": {
+    "original": "8f72925baca90cae5d0753a5ee017380fa9e66700eacdc8c620fb1c3fb9d9b83",
+    "processed": "572ae80ab66f311743314d093bca6eebef33ec178476de1fda58fec617da3e9e"
   }
 }
