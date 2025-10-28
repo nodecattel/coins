@@ -1743,6 +1743,64 @@
         "mm2": 1,
         "chain_id": 56,
         "decimals": 18,
+        "avg_blocktime": 0.75,
+        "required_confirmations": 5,
+        "protocol": {
+            "type": "ERC20",
+            "protocol_data": {
+                "platform": "BNB",
+                "contract_address": "0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79"
+            }
+        },
+        "derivation_path": "m/44'/60'",
+        "links": {
+            "homepage": "https://apecoin.com"
+        },
+        "contract_address": "0x8f86a15EC17cb3369d8b3E666dAdBC11daA82b79",
+        "parent_coin": "BNB",
+        "swap_contract_address": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "fallback_swap_contract": "0xeDc5b89Fe1f0382F9E4316069971D90a0951DB31",
+        "nodes": [
+            {
+                "url": "https://bsc-rpc.publicnode.com",
+                "ws_url": "wss://bsc-rpc.publicnode.com"
+            },
+            {
+                "url": "https://bsc1.cipig.net:18655",
+                "ws_url": "wss://bsc1.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc2.cipig.net:18655",
+                "ws_url": "wss://bsc2.cipig.net:38655"
+            },
+            {
+                "url": "https://bsc3.cipig.net:18655",
+                "ws_url": "wss://bsc3.cipig.net:38655"
+            }
+        ],
+        "token_address_url": "tokentxns?a=",
+        "explorer_block_url": "block/"
+    },
+    "APE-BEP20_OLD": {
+        "coin": "APE-BEP20_OLD",
+        "type": "BEP-20",
+        "name": "ApeCoin (OLD)",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "APE",
+        "explorer_url": "https://bscscan.com/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": true,
+        "fname": "ApeCoin (OLD)",
+        "rpcport": 80,
+        "mm2": 1,
+        "chain_id": 56,
+        "decimals": 18,
         "avg_blocktime": 3,
         "required_confirmations": 3,
         "protocol": {
