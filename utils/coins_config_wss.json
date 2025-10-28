@@ -13673,6 +13673,132 @@
         "token_address_url": "tokentxns?a=",
         "explorer_block_url": "block/"
     },
+    "FIX": {
+        "coin": "FIX",
+        "type": "UTXO",
+        "name": "FixedCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.fixedcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "FixedCoin Signed Message:\n",
+        "fname": "FixedCoin",
+        "rpcport": 24761,
+        "pubtype": 1,
+        "p2shtype": 0,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "fix",
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 101,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/44'/0'",
+        "links": {
+            "github": "https://github.com/biigbang0001/fixedcoin",
+            "homepage": "https://web.fixedcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.fixedcoin.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@fixedcoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.nitopool.fr:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@nitopool.fr"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
+    "FIX-segwit": {
+        "coin": "FIX-segwit",
+        "type": "UTXO",
+        "name": "FixedCoin",
+        "coinpaprika_id": "",
+        "coingecko_id": "",
+        "livecoinwatch_id": "",
+        "explorer_url": "https://explorer.fixedcoin.org/",
+        "explorer_tx_url": "tx/",
+        "explorer_address_url": "address/",
+        "supported": [],
+        "active": false,
+        "is_testnet": false,
+        "currently_enabled": false,
+        "wallet_only": false,
+        "sign_message_prefix": "FixedCoin Signed Message:\n",
+        "fname": "FixedCoin",
+        "rpcport": 24761,
+        "pubtype": 1,
+        "p2shtype": 0,
+        "wiftype": 128,
+        "segwit": true,
+        "bech32_hrp": "fix",
+        "address_format": {
+            "format": "segwit"
+        },
+        "orderbook_ticker": "FIX",
+        "txfee": 1000,
+        "dust": 10000,
+        "mm2": 1,
+        "required_confirmations": 3,
+        "mature_confirmations": 101,
+        "avg_blocktime": 600,
+        "protocol": {
+            "type": "UTXO"
+        },
+        "derivation_path": "m/84'/0'",
+        "links": {
+            "github": "https://github.com/biigbang0001/fixedcoin",
+            "homepage": "https://web.fixedcoin.org"
+        },
+        "electrum": [
+            {
+                "url": "electrumx.fixedcoin.org:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@fixedcoin.org"
+                    }
+                ]
+            },
+            {
+                "url": "electrumx.nitopool.fr:50004",
+                "protocol": "WSS",
+                "disable_cert_verification": false,
+                "contact": [
+                    {
+                        "email": "support@nitopool.fr"
+                    }
+                ]
+            }
+        ],
+        "explorer_block_url": "block/"
+    },
     "FJC": {
         "coin": "FJC",
         "type": "UTXO",
@@ -14240,51 +14366,6 @@
             }
         ],
         "explorer_block_url": "block/"
-    },
-    "FTM": {
-        "coin": "FTM",
-        "type": "FTM-20",
-        "name": "Fantom",
-        "coinpaprika_id": "ftm-fantom",
-        "coingecko_id": "fantom",
-        "livecoinwatch_id": "FTM",
-        "explorer_url": "https://ftmscan.com/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "fname": "Fantom",
-        "rpcport": 80,
-        "mm2": 1,
-        "chain_id": 250,
-        "use_access_list": true,
-        "max_eth_tx_type": 2,
-        "required_confirmations": 3,
-        "avg_blocktime": 1.8,
-        "protocol": {
-            "type": "ETH",
-            "protocol_data": {
-                "chain_id": 250
-            }
-        },
-        "derivation_path": "m/44'/60'",
-        "trezor_coin": "Fantom Opera",
-        "links": {
-            "homepage": "https://fantom.foundation"
-        },
-        "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [
-            {
-                "url": "https://fantom.drpc.org",
-                "ws_url": "wss://fantom.drpc.org"
-            }
-        ],
-        "explorer_block_url": "block/",
-        "binance_id": "FTM"
     },
     "FTM-BEP20": {
         "coin": "FTM-BEP20",
@@ -42510,58 +42591,6 @@
                 "contact": [
                     {
                         "discord": "635448663543644170"
-                    }
-                ]
-            }
-        ],
-        "explorer_block_url": "block/"
-    },
-    "FIX": {
-        "coin": "FIX",
-        "type": "UTXO",
-        "name": "FixedCoin",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://explorer.fixedcoin.org/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": false,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "sign_message_prefix": "FixedCoin Signed Message:\n",
-        "fname": "FixedCoin",
-        "rpcport": 24761,
-        "txversion": 1,
-        "pubtype": 1,
-        "p2shtype": 0,
-        "wiftype": 128,
-        "txfee": 1000,
-        "dust": 10000,
-        "mm2": 1,
-        "required_confirmations": 3,
-        "mature_confirmations": 101,
-        "avg_blocktime": 600,
-        "decimals": 8,
-        "protocol": {
-            "type": "UTXO",
-            "bip44": 0
-        },
-        "derivation_path": "m/44'/0'",
-        "links": {
-            "github": "https://github.com/biigbang0001/fixedcoin",
-            "homepage": "https://web.fixedcoin.org"
-        },
-        "electrum": [
-            {
-                "url": "electrumx.fixedcoin.org:50004",
-                "protocol": "WSS",
-                "disable_cert_verification": false,
-                "contact": [
-                    {
-                        "email": "support@fixedcoin.org"
                     }
                 ]
             }
