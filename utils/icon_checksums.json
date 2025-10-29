@@ -1886,5 +1886,9 @@
   "fix.png": {
     "original": "8f72925baca90cae5d0753a5ee017380fa9e66700eacdc8c620fb1c3fb9d9b83",
     "processed": "572ae80ab66f311743314d093bca6eebef33ec178476de1fda58fec617da3e9e"
+  },
+  "eurc.png": {
+    "original": "1139a6162682694bbf56b449b044e25f5f02f41621cda2d8ff7cda6e21af48fa",
+    "processed": "997ad13ec662b8e10f0f9c9b708ecce144b60335a55c2cd02071c183454dc1e7"
   }
 }
