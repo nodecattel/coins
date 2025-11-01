@@ -5,6 +5,20 @@
     },
     "by_server": {
       "_metadata": {
+        "aby-ex-three.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "aby-ex-three.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "aby-ex-three.ewmci.online:50003": {
           "contact": [
             {
@@ -23,10 +37,12 @@
         "1755770395": "online"
       },
       "aby-ex-three.ewmci.online:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "aby-ex-three.ewmci.online:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "aby-ex-three.ewmci.online:50003": {
         "1755770395": "offline"
@@ -951,17 +967,44 @@
   },
   "BONC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1762013934": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrum.bonkscoin.io:50001": {
+          "contact": [
+            {
+              "discord": "1157581316175437884"
+            }
+          ]
+        },
+        "electrum.bonkscoin.io:50002": {
+          "contact": [
+            {
+              "discord": "1157581316175437884"
+            }
+          ]
+        },
+        "electrum.bonkscoin.io:50003": {
+          "contact": [
+            {
+              "discord": "1157581316175437884"
+            }
+          ]
+        }
+      },
       "electrum.bonkscoin.io:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "electrum.bonkscoin.io:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "electrum.bonkscoin.io:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       }
     }
   },
@@ -1122,20 +1165,24 @@
       "electrum1.btcz.rocks:50001": {
         "1755770395": "offline",
         "1757895281": "online",
-        "1760706938": "offline"
+        "1760706938": "offline",
+        "1762013934": "online"
       },
       "electrum1.btcz.rocks:50004": {
         "1755770395": "offline",
         "1757895281": "online",
-        "1760706938": "offline"
+        "1760706938": "offline",
+        "1762013934": "online"
       },
       "electrum2.btcz.rocks:50001": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1762013934": "online"
       },
       "electrum2.btcz.rocks:50004": {
         "1755770395": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1762013934": "online"
       },
       "electrum3.btcz.rocks:50001": {
         "1755770395": "online"
@@ -1546,15 +1593,18 @@
       },
       "coin.crionic.org:50001": {
         "1755770395": "offline",
-        "1759450423": "online"
+        "1759450423": "online",
+        "1762013934": "offline"
       },
       "coin.crionic.org:50002": {
         "1755770395": "offline",
-        "1759450423": "online"
+        "1759450423": "online",
+        "1762013934": "offline"
       },
       "coin.crionic.org:50005": {
         "1755770395": "offline",
-        "1759450423": "online"
+        "1759450423": "online",
+        "1762013934": "offline"
       },
       "explorer.crionic.org:50001": {
         "1755770395": "online"
@@ -1859,21 +1909,24 @@
         "1757307678": "online",
         "1758289389": "offline",
         "1759303900": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1762013934": "online"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
         "1755770395": "offline",
         "1757307678": "online",
         "1758289389": "offline",
         "1759303900": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1762013934": "online"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
         "1755770395": "offline",
         "1757307678": "online",
         "1758289389": "offline",
         "1759303900": "online",
-        "1760163826": "offline"
+        "1760163826": "offline",
+        "1762013934": "online"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -2333,7 +2386,8 @@
       },
       "wss://eth.drpc.org": {
         "1755770395": "online",
-        "1761668428": "offline"
+        "1761668428": "offline",
+        "1762013934": "online"
       },
       "wss://eth3.cipig.net:38555": {
         "1755770395": "online"
@@ -2761,7 +2815,8 @@
       },
       "wss://fantom.drpc.org": {
         "1755770395": "online",
-        "1761668428": "offline"
+        "1761668428": "offline",
+        "1762013934": "online"
       }
     }
   },
@@ -2890,7 +2945,8 @@
       },
       "wss://moonbeam.drpc.org": {
         "1755987838": "online",
-        "1761668428": "offline"
+        "1761668428": "offline",
+        "1762013934": "online"
       },
       "wss://moonbeam.public.blastapi.io": {
         "1755770395": "online"
@@ -4171,7 +4227,8 @@
       },
       "wss://polygon.drpc.org": {
         "1755770395": "online",
-        "1761629732": "offline"
+        "1761629732": "offline",
+        "1762013934": "online"
       },
       "wss://polygon.gateway.tenderly.co": {
         "1755770395": "online",
@@ -4446,7 +4503,8 @@
         "1761086724": "offline"
       },
       "https://moonriver.unitedbloc.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "https://rpc.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -4456,7 +4514,8 @@
         "1761086724": "offline"
       },
       "wss://moonriver.unitedbloc.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762013934": "offline"
       },
       "wss://wss.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -5173,7 +5232,8 @@
       },
       "wss://harmony-0.drpc.org": {
         "1755770395": "online",
-        "1761668428": "offline"
+        "1761668428": "offline",
+        "1762013934": "online"
       }
     }
   },
