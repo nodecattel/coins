@@ -15585,7 +15585,12 @@
         },
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
-        "nodes": [],
+        "nodes": [
+            {
+                "url": "https://fantom.drpc.org",
+                "ws_url": "wss://fantom.drpc.org"
+            }
+        ],
         "explorer_block_url": "block/",
         "binance_id": "FTM"
     },
