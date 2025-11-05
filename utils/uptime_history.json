@@ -166,20 +166,55 @@
   },
   "AIPG": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1762321286": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "electrumx1.aipowergrid.io:50002": {
+          "contact": [
+            {
+              "discord": "482101557383528448"
+            }
+          ]
+        },
+        "electrumx1.aipowergrid.io:50004": {
+          "contact": [
+            {
+              "discord": "482101557383528448"
+            }
+          ]
+        },
+        "electrumx2.aipowergrid.io:50002": {
+          "contact": [
+            {
+              "discord": "482101557383528448"
+            }
+          ]
+        },
+        "electrumx2.aipowergrid.io:50004": {
+          "contact": [
+            {
+              "discord": "482101557383528448"
+            }
+          ]
+        }
+      },
       "electrumx1.aipowergrid.io:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "electrumx1.aipowergrid.io:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "electrumx2.aipowergrid.io:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "electrumx2.aipowergrid.io:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       }
     }
   },
@@ -343,7 +378,8 @@
         "1755770395": "online"
       },
       "https://node.komodo.earth:8080/avalanche": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1762321286": "online"
       },
       "wss://0xrpc.io/avax": {
         "1755770395": "online"
@@ -507,6 +543,27 @@
     },
     "by_server": {
       "_metadata": {
+        "bbk-ex-three.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "bbk-ex-three.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "bbk-ex-three.ewmci.online:50003": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "bbk-one.ewm-cx.net:50001": {
           "contact": [
             {
@@ -516,13 +573,16 @@
         }
       },
       "bbk-ex-three.ewmci.online:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "bbk-ex-three.ewmci.online:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "bbk-ex-three.ewmci.online:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "bbk-ex-two.ewmci.online:50001": {
         "1755770395": "online"
@@ -2356,7 +2416,8 @@
         "1755770395": "online"
       },
       "https://rpc.etcinscribe.com": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       }
     }
   },
@@ -2379,7 +2440,8 @@
         "1755770395": "online"
       },
       "https://node.komodo.earth:8080/ethereum": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1762321286": "online"
       },
       "wss://0xrpc.io/eth": {
         "1755770395": "online"
@@ -2419,7 +2481,8 @@
         "1755770395": "online"
       },
       "https://node.komodo.earth:8080/arbitrum": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1762321286": "online"
       },
       "wss://arbitrum-one-rpc.publicnode.com": {
         "1755770395": "online"
@@ -2804,10 +2867,12 @@
       "https://fantom.drpc.org": {
         "1755770395": "online",
         "1761668428": "offline",
-        "1761706216": "online"
+        "1761706216": "online",
+        "1762321286": "offline"
       },
       "https://node.komodo.earth:8080/fantom": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1762321286": "online"
       },
       "wss://fantom-rpc.publicnode.com": {
         "1755770395": "online",
@@ -2816,7 +2881,8 @@
       "wss://fantom.drpc.org": {
         "1755770395": "online",
         "1761668428": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1762321286": "offline"
       }
     }
   },
@@ -2938,7 +3004,8 @@
         "1755987838": "online"
       },
       "https://moonbeam.public.blastapi.io": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "https://rpc.api.moonbeam.network": {
         "1755770395": "online"
@@ -2949,7 +3016,8 @@
         "1762013934": "online"
       },
       "wss://moonbeam.public.blastapi.io": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "wss://wss.api.moonbeam.network": {
         "1755770395": "online"
@@ -4203,7 +4271,8 @@
     "all": {},
     "by_server": {
       "https://node.komodo.earth:8080/polygon": {
-        "1755770395": "offline"
+        "1755770395": "offline",
+        "1762321286": "online"
       },
       "https://pol3.cipig.net:18755": {
         "1755770395": "online",
@@ -4504,7 +4573,8 @@
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
-        "1762013934": "offline"
+        "1762013934": "offline",
+        "1762321286": "online"
       },
       "https://rpc.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -4515,7 +4585,8 @@
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
-        "1762013934": "offline"
+        "1762013934": "offline",
+        "1762321286": "online"
       },
       "wss://wss.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -5241,7 +5312,8 @@
     "all": {},
     "by_server": {
       "https://osmosis-rpc.alpha.komodo.earth/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "https://osmosis.rpc.stakin-nodes.com": {
         "1755770395": "online"
@@ -5253,7 +5325,8 @@
         "1755770395": "online"
       },
       "wss://osmosis-rpc.alpha.komodo.earth/websocket": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       }
     }
   },
@@ -6935,6 +7008,20 @@
         "1755770395": "online"
       },
       "_metadata": {
+        "zet-ex-four.ewmci.online:50001": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "zet-ex-four.ewmci.online:50002": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "zet-ex-four.ewmci.online:50003": {
           "contact": [
             {
@@ -6965,10 +7052,12 @@
         }
       },
       "zet-ex-four.ewmci.online:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "zet-ex-four.ewmci.online:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762321286": "offline"
       },
       "zet-ex-four.ewmci.online:50003": {
         "1755770395": "offline"
@@ -6977,19 +7066,22 @@
         "1755770395": "offline",
         "1757795910": "online",
         "1758502268": "offline",
-        "1759303900": "online"
+        "1759303900": "online",
+        "1762321286": "offline"
       },
       "zet-ex-three.ewmci.online:50012": {
         "1755770395": "offline",
         "1757795910": "online",
         "1758502268": "offline",
-        "1759303900": "online"
+        "1759303900": "online",
+        "1762321286": "offline"
       },
       "zet-ex-three.ewmci.online:50013": {
         "1755770395": "offline",
         "1757795910": "online",
         "1758502268": "offline",
-        "1759303900": "online"
+        "1759303900": "online",
+        "1762321286": "offline"
       }
     }
   },
