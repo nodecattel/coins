@@ -379,7 +379,8 @@
       },
       "https://node.komodo.earth:8080/avalanche": {
         "1755770395": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1762820073": "offline"
       },
       "wss://0xrpc.io/avax": {
         "1755770395": "online"
@@ -1970,7 +1971,8 @@
         "1758289389": "offline",
         "1759303900": "online",
         "1760163826": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1762820073": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50002": {
         "1755770395": "offline",
@@ -1978,7 +1980,8 @@
         "1758289389": "offline",
         "1759303900": "online",
         "1760163826": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1762820073": "offline"
       },
       "electrumx1.dimecoinnetwork.com:50004": {
         "1755770395": "offline",
@@ -1986,7 +1989,8 @@
         "1758289389": "offline",
         "1759303900": "online",
         "1760163826": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1762820073": "offline"
       },
       "electrumx2.dimecoinnetwork.com:50001": {
         "1755770395": "online"
@@ -2085,6 +2089,29 @@
       "1755770395": "online"
     },
     "by_server": {
+      "_metadata": {
+        "elecx1.dingocoin.com:3339": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "elecx1.dingocoin.com:3341": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        },
+        "elecx1.dingocoin.com:3342": {
+          "contact": [
+            {
+              "discord": "115619332448321541"
+            }
+          ]
+        }
+      },
       "delecx.twinkykms.com:3339": {
         "1755770395": "online"
       },
@@ -2095,13 +2122,16 @@
         "1755770395": "online"
       },
       "elecx1.dingocoin.com:3339": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762820073": "offline"
       },
       "elecx1.dingocoin.com:3341": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762820073": "offline"
       },
       "elecx1.dingocoin.com:3342": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1762820073": "offline"
       },
       "elecx2.dingocoin.com:3339": {
         "1755770395": "online"
@@ -2441,7 +2471,8 @@
       },
       "https://node.komodo.earth:8080/ethereum": {
         "1755770395": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1762820073": "offline"
       },
       "wss://0xrpc.io/eth": {
         "1755770395": "online"
@@ -2482,7 +2513,8 @@
       },
       "https://node.komodo.earth:8080/arbitrum": {
         "1755770395": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1762820073": "offline"
       },
       "wss://arbitrum-one-rpc.publicnode.com": {
         "1755770395": "online"
@@ -2873,7 +2905,8 @@
       },
       "https://node.komodo.earth:8080/fantom": {
         "1755770395": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1762820073": "offline"
       },
       "wss://fantom-rpc.publicnode.com": {
         "1755770395": "online",
@@ -4274,7 +4307,8 @@
     "by_server": {
       "https://node.komodo.earth:8080/polygon": {
         "1755770395": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1762820073": "offline"
       },
       "https://pol3.cipig.net:18755": {
         "1755770395": "online",
@@ -5607,32 +5641,39 @@
   "RDD": {
     "all": {
       "1755770395": "online",
-      "1761579168": "offline"
+      "1761579168": "offline",
+      "1762820073": "online"
     },
     "by_server": {
       "electrum01.reddcoin.com:50002": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       },
       "electrum01.reddcoin.com:50004": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       },
       "electrum02.reddcoin.com:50002": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       },
       "electrum02.reddcoin.com:50004": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       },
       "electrum03.reddcoin.com:50002": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       },
       "electrum03.reddcoin.com:50004": {
         "1755770395": "online",
-        "1761579168": "offline"
+        "1761579168": "offline",
+        "1762820073": "online"
       }
     }
   },
