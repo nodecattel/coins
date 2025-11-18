@@ -4625,7 +4625,8 @@
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
         "1762013934": "offline",
-        "1762321286": "online"
+        "1762321286": "online",
+        "1763424886": "offline"
       },
       "https://rpc.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -4639,7 +4640,8 @@
         "1762013934": "offline",
         "1762321286": "online",
         "1763079262": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1763424886": "offline"
       },
       "wss://wss.api.moonriver.moonbeam.network": {
         "1755770395": "online"
