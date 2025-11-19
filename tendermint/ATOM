@@ -2,9 +2,6 @@
   "rpc_nodes": [
     {
       "url": "https://rpc.cosmos.directory/cosmoshub"
-    },
-    {
-      "url": "https://cosmoshub.rpc.stakin-nodes.com/"
     }
   ]
 }
