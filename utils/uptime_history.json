@@ -305,6 +305,9 @@
       "https://node.komodo.earth:8080/cosmos": {
         "1755770395": "offline"
       },
+      "https://rpc.cosmos.directory/cosmoshub": {
+        "1763521637": "online"
+      },
       "wss://cosmos-rpc.alpha.komodo.earth/websocket": {
         "1755770395": "online"
       }
@@ -3654,6 +3657,9 @@
       "https://iris-rpc.publicnode.com": {
         "1760706938": "online"
       },
+      "https://rpc.cosmos.directory/irisnet": {
+        "1763521637": "online"
+      },
       "https://rpc.irishub-1.irisnet.org": {
         "1755770395": "online"
       },
@@ -3665,6 +3671,9 @@
   "IRISTEST": {
     "all": {},
     "by_server": {
+      "http://34.80.202.172:26657": {
+        "1763521637": "online"
+      },
       "https://evmrpc.nyancat.irisnet.org": {
         "1755770395": "offline"
       },
@@ -5375,6 +5384,9 @@
       },
       "https://rpc-osmosis-ia.cosmosia.notional.ventures/": {
         "1755770395": "offline"
+      },
+      "https://rpc.cosmos.directory/osmosis": {
+        "1763521637": "online"
       },
       "https://rpc.osmosis.zone/": {
         "1755770395": "online"
