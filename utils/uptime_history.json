@@ -1247,13 +1247,15 @@
         "1755770395": "online",
         "1760163826": "offline",
         "1762013934": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1763717835": "online"
       },
       "electrum2.btcz.rocks:50004": {
         "1755770395": "online",
         "1760163826": "offline",
         "1762013934": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1763717835": "online"
       },
       "electrum3.btcz.rocks:50001": {
         "1755770395": "online"
@@ -4635,7 +4637,8 @@
         "1755770395": "online",
         "1762013934": "offline",
         "1762321286": "online",
-        "1763424886": "offline"
+        "1763424886": "offline",
+        "1763717835": "online"
       },
       "https://rpc.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -4650,7 +4653,8 @@
         "1762321286": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1763424886": "offline"
+        "1763424886": "offline",
+        "1763717835": "online"
       },
       "wss://wss.api.moonriver.moonbeam.network": {
         "1755770395": "online"
@@ -5216,25 +5220,31 @@
     "all": {},
     "by_server": {
       "https://nucleus-rpc.alpha.komodo.earth/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "https://nucleus-rpc.bravo.komodo.earth/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "https://nucleus-rpc.charlie.komodo.earth/": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "https://nucleus-rpc.delta.komodo.earth/": {
         "1755770395": "offline"
       },
       "wss://nucleus-rpc.alpha.komodo.earth/websocket": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "wss://nucleus-rpc.bravo.komodo.earth/websocket": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "wss://nucleus-rpc.charlie.komodo.earth/websocket": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763717835": "offline"
       },
       "wss://nucleus-rpc.delta.komodo.earth/websocket": {
         "1755770395": "offline"
@@ -6412,13 +6422,15 @@
         "1755770395": "online",
         "1757307678": "offline",
         "1757463228": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1763717835": "online"
       },
       "uis-uno.ewmcx.net:50003": {
         "1755770395": "online",
         "1757307678": "offline",
         "1757463228": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1763717835": "online"
       }
     }
   },
