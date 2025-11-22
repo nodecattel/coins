@@ -2549,6 +2549,9 @@
       "https://base.gateway.tenderly.co": {
         "1761238027": "online"
       },
+      "https://base.lava.build": {
+        "1763831050": "online"
+      },
       "https://base.llamarpc.com": {
         "1761238027": "online"
       },
@@ -5374,7 +5377,8 @@
         "1761238027": "online",
         "1761437654": "offline",
         "1761579168": "online",
-        "1763783058": "offline"
+        "1763783058": "offline",
+        "1763831050": "online"
       },
       "https://api.harmony.one": {
         "1755770395": "online"

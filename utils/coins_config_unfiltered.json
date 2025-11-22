@@ -1604,7 +1604,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -8771,7 +8771,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -15753,7 +15753,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -16032,7 +16032,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -32333,6 +32333,9 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
+                "url": "https://1rpc.io/one"
+            },
+            {
                 "url": "https://api.harmony.one"
             },
             {
@@ -40268,7 +40271,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -41371,7 +41374,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
@@ -42757,7 +42760,7 @@
                 "ws_url": "wss://base.gateway.tenderly.co"
             },
             {
-                "url": "https://base.llamarpc.com"
+                "url": "https://base.lava.build"
             },
             {
                 "url": "https://mainnet.base.org"
