@@ -4633,6 +4633,12 @@
         "1755770395": "online",
         "1761086724": "offline"
       },
+      "https://moonriver-rpc.publicnode.com": {
+        "1763783058": "online"
+      },
+      "https://moonriver.drpc.org": {
+        "1763783058": "online"
+      },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
         "1762013934": "offline",
@@ -4646,6 +4652,12 @@
       "wss://moonriver-rpc.dwellir.com": {
         "1755770395": "online",
         "1761086724": "offline"
+      },
+      "wss://moonriver-rpc.publicnode.com": {
+        "1763783058": "online"
+      },
+      "wss://moonriver.drpc.org": {
+        "1763783058": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -5361,7 +5373,8 @@
         "1761145426": "offline",
         "1761238027": "online",
         "1761437654": "offline",
-        "1761579168": "online"
+        "1761579168": "online",
+        "1763783058": "offline"
       },
       "https://api.harmony.one": {
         "1755770395": "online"
@@ -7233,17 +7246,53 @@
   },
   "ZOMBIE": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1763783058": "offline"
     },
     "by_server": {
+      "_metadata": {
+        "zombie.dragonhound.info:10133": {
+          "contact": [
+            {
+              "email": "smk@komodoplatform.com"
+            },
+            {
+              "discord": "smk#7640"
+            }
+          ]
+        },
+        "zombie.dragonhound.info:20133": {
+          "contact": [
+            {
+              "email": "smk@komodoplatform.com"
+            },
+            {
+              "discord": "smk#7640"
+            }
+          ]
+        },
+        "zombie.dragonhound.info:30059": {
+          "contact": [
+            {
+              "email": "smk@komodoplatform.com"
+            },
+            {
+              "discord": "smk#7640"
+            }
+          ]
+        }
+      },
       "zombie.dragonhound.info:10133": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763783058": "offline"
       },
       "zombie.dragonhound.info:20133": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763783058": "offline"
       },
       "zombie.dragonhound.info:30059": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1763783058": "offline"
       }
     }
   },

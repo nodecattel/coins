@@ -6627,12 +6627,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -9443,12 +9443,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -14642,12 +14642,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -24033,12 +24033,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -24248,8 +24248,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
+            },
+            {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -30979,12 +30983,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -34136,12 +34140,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -34418,12 +34422,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -40608,77 +40612,6 @@
             }
         ],
         "token_address_url": "tokentxns?a=",
-        "explorer_block_url": "block/"
-    },
-    "ZOMBIE": {
-        "coin": "ZOMBIE",
-        "type": "ZHTLC",
-        "name": "Zombie",
-        "coinpaprika_id": "",
-        "coingecko_id": "",
-        "livecoinwatch_id": "",
-        "explorer_url": "https://zombie.komodo.earth/",
-        "explorer_tx_url": "tx/",
-        "explorer_address_url": "address/",
-        "supported": [],
-        "active": false,
-        "is_testnet": true,
-        "currently_enabled": false,
-        "wallet_only": false,
-        "light_wallet_d_servers": [
-            "https://zombie.dragonhound.info:9447"
-        ],
-        "light_wallet_d_servers_wss": [
-            "https://zombie.dragonhound.info:19447"
-        ],
-        "asset": "ZOMBIE",
-        "fname": "Zombie",
-        "is_privacy_coin": true,
-        "txversion": 4,
-        "overwintered": 1,
-        "avg_blocktime": 60,
-        "mm2": 1,
-        "protocol": {
-            "type": "ZHTLC",
-            "protocol_data": {
-                "consensus_params": {
-                    "overwinter_activation_height": 0,
-                    "sapling_activation_height": 1,
-                    "blossom_activation_height": null,
-                    "heartwood_activation_height": null,
-                    "canopy_activation_height": null,
-                    "coin_type": 133,
-                    "hrp_sapling_extended_spending_key": "secret-extended-key-main",
-                    "hrp_sapling_extended_full_viewing_key": "zxviews",
-                    "hrp_sapling_payment_address": "zs",
-                    "b58_pubkey_address_prefix": [
-                        28,
-                        184
-                    ],
-                    "b58_script_address_prefix": [
-                        28,
-                        189
-                    ]
-                },
-                "z_derivation_path": "m/32'/141'"
-            }
-        },
-        "derivation_path": "m/44'/141'",
-        "required_confirmations": 3,
-        "electrum": [
-            {
-                "url": "zombie.dragonhound.info:30059",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ]
-            }
-        ],
         "explorer_block_url": "block/"
     },
     "ZINU-BEP20": {

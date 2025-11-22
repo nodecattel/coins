@@ -8477,12 +8477,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -12072,12 +12072,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -18802,12 +18802,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -30126,12 +30126,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -30472,8 +30472,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
+            },
+            {
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -32328,9 +32332,6 @@
         "swap_contract_address": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
-            {
-                "url": "https://1rpc.io/one"
-            },
             {
                 "url": "https://api.harmony.one"
             },
@@ -39206,12 +39207,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -43079,12 +43080,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -43373,12 +43374,12 @@
         "fallback_swap_contract": "0x9130b257D37A52E52F21054c4DA3450c72f595CE",
         "nodes": [
             {
-                "url": "https://moonriver-rpc.dwellir.com",
-                "ws_url": "wss://moonriver-rpc.dwellir.com"
+                "url": "https://moonriver-rpc.publicnode.com",
+                "ws_url": "wss://moonriver-rpc.publicnode.com"
             },
             {
-                "url": "https://moonriver.unitedbloc.com",
-                "ws_url": "wss://moonriver.unitedbloc.com"
+                "url": "https://moonriver.drpc.org",
+                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
@@ -51999,44 +52000,8 @@
         },
         "derivation_path": "m/44'/141'",
         "required_confirmations": 3,
-        "electrum": [
-            {
-                "url": "zombie.dragonhound.info:10133",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ],
-                "protocol": "TCP"
-            },
-            {
-                "url": "zombie.dragonhound.info:20133",
-                "protocol": "SSL",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ]
-            },
-            {
-                "url": "zombie.dragonhound.info:30059",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "email": "smk@komodoplatform.com"
-                    },
-                    {
-                        "discord": "smk#7640"
-                    }
-                ]
-            }
-        ],
+        "electrum": [],
+        "delisted": true,
         "explorer_block_url": "block/"
     },
     "ZDEEX": {
