@@ -12344,7 +12344,7 @@
       "type": "ERC20",
       "protocol_data": {
         "platform": "AVAX",
-        "contract_address": "0x841aef70237a88027ccb2d15c1bbaf88a669674a"
+        "contract_address": "0x841Aef70237a88027ccb2d15C1bBAf88a669674a"
       }
     },
     "derivation_path": "m/44'/60'"
