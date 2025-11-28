@@ -4581,13 +4581,15 @@
         "1755770395": "online",
         "1760706938": "offline",
         "1762474464": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1764312754": "online"
       },
       "meowelectrum.xyz:50004": {
         "1755770395": "online",
         "1760706938": "offline",
         "1762474464": "online",
-        "1763079262": "offline"
+        "1763079262": "offline",
+        "1764312754": "online"
       }
     }
   },
@@ -6168,17 +6170,21 @@
   },
   "TKL": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1764312754": "offline"
     },
     "by_server": {
       "1.eu.tokel.electrum.dexstats.info:10077": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764312754": "offline"
       },
       "1.eu.tokel.electrum.dexstats.info:11077": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764312754": "offline"
       },
       "1.eu.tokel.electrum.dexstats.info:9077": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764312754": "offline"
       },
       "2.eu.tokel.electrum.dexstats.info:10077": {
         "1755770395": "offline"
@@ -6190,6 +6196,36 @@
         "1755770395": "offline"
       },
       "_metadata": {
+        "1.eu.tokel.electrum.dexstats.info:10077": {
+          "contact": [
+            {
+              "email": "chmex@dexstats.info"
+            },
+            {
+              "discord": "chmex#0686"
+            }
+          ]
+        },
+        "1.eu.tokel.electrum.dexstats.info:11077": {
+          "contact": [
+            {
+              "email": "chmex@dexstats.info"
+            },
+            {
+              "discord": "chmex#0686"
+            }
+          ]
+        },
+        "1.eu.tokel.electrum.dexstats.info:9077": {
+          "contact": [
+            {
+              "email": "chmex@dexstats.info"
+            },
+            {
+              "discord": "chmex#0686"
+            }
+          ]
+        },
         "2.eu.tokel.electrum.dexstats.info:10077": {
           "contact": [
             {
@@ -6916,19 +6952,22 @@
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1764031001": "offline"
+        "1764031001": "offline",
+        "1764312754": "online"
       },
       "electrumx1.vanillacash.info:50012": {
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1764031001": "offline"
+        "1764031001": "offline",
+        "1764312754": "online"
       },
       "electrumx1.vanillacash.info:50013": {
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
-        "1764031001": "offline"
+        "1764031001": "offline",
+        "1764312754": "online"
       },
       "electrumx2.vanillacash.info:50011": {
         "1755770395": "online"
