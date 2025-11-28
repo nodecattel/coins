@@ -664,6 +664,24 @@
       "electrum.bitcoinii.network:40102": {
         "1759220463": "offline",
         "1760163826": "online"
+      },
+      "explorer.bitcoin-ii.org:50008": {
+        "1764337728": "online"
+      },
+      "explorer.bitcoin-ii.org:50009": {
+        "1764337728": "online"
+      },
+      "explorer.bitcoin-ii.org:50010": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50008": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50009": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50010": {
+        "1764337728": "online"
       }
     }
   },
@@ -724,6 +742,24 @@
       "electrum.bitcoinii.network:40102": {
         "1759220463": "offline",
         "1760163826": "online"
+      },
+      "explorer.bitcoin-ii.org:50008": {
+        "1764337728": "online"
+      },
+      "explorer.bitcoin-ii.org:50009": {
+        "1764337728": "online"
+      },
+      "explorer.bitcoin-ii.org:50010": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50008": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50009": {
+        "1764337728": "online"
+      },
+      "infra1.bitcoin-ii.org:50010": {
+        "1764337728": "online"
       }
     }
   },
@@ -4642,7 +4678,8 @@
         "1763783058": "online"
       },
       "https://moonriver.drpc.org": {
-        "1763783058": "online"
+        "1763783058": "online",
+        "1764337728": "offline"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -4662,7 +4699,8 @@
         "1763783058": "online"
       },
       "wss://moonriver.drpc.org": {
-        "1763783058": "online"
+        "1763783058": "online",
+        "1764337728": "offline"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",

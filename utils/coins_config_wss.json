@@ -3790,29 +3790,20 @@
         },
         "electrum": [
             {
-                "url": "electrum-02.bitcoinii.network:40104",
+                "url": "explorer.bitcoin-ii.org:50010",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "777703913125314580"
+                        "discord": "1391871602127540236"
                     }
                 ]
             },
             {
-                "url": "electrum-03.bitcoinii.network:40106",
+                "url": "infra1.bitcoin-ii.org:50010",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "777703913125314580"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.bitcoinii.network:40102",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "777703913125314580"
+                        "discord": "1391871602127540236"
                     }
                 ]
             }
@@ -3860,29 +3851,20 @@
         },
         "electrum": [
             {
-                "url": "electrum-02.bitcoinii.network:40104",
+                "url": "explorer.bitcoin-ii.org:50010",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "777703913125314580"
+                        "discord": "1391871602127540236"
                     }
                 ]
             },
             {
-                "url": "electrum-03.bitcoinii.network:40106",
+                "url": "infra1.bitcoin-ii.org:50010",
                 "protocol": "WSS",
                 "contact": [
                     {
-                        "discord": "777703913125314580"
-                    }
-                ]
-            },
-            {
-                "url": "electrum.bitcoinii.network:40102",
-                "protocol": "WSS",
-                "contact": [
-                    {
-                        "discord": "777703913125314580"
+                        "discord": "1391871602127540236"
                     }
                 ]
             }
@@ -24259,10 +24241,6 @@
             {
                 "url": "https://moonriver-rpc.publicnode.com",
                 "ws_url": "wss://moonriver-rpc.publicnode.com"
-            },
-            {
-                "url": "https://moonriver.drpc.org",
-                "ws_url": "wss://moonriver.drpc.org"
             },
             {
                 "url": "https://rpc.api.moonriver.moonbeam.network",
