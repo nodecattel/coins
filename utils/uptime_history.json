@@ -1033,7 +1033,8 @@
         "1755770395": "online"
       },
       "https://bsc2.cipig.net:18655": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "https://bsc3.cipig.net:18655": {
         "1755770395": "online"
@@ -1045,7 +1046,8 @@
         "1755770395": "online"
       },
       "wss://bsc2.cipig.net:38655": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "wss://bsc3.cipig.net:38655": {
         "1755770395": "online"
@@ -1271,13 +1273,15 @@
         "1755770395": "offline",
         "1757895281": "online",
         "1760706938": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1764982640": "offline"
       },
       "electrum1.btcz.rocks:50004": {
         "1755770395": "offline",
         "1757895281": "online",
         "1760706938": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1764982640": "offline"
       },
       "electrum2.btcz.rocks:50001": {
         "1755770395": "online",
@@ -1803,8 +1807,18 @@
       "1758502268": "online"
     },
     "by_server": {
+      "_metadata": {
+        "api.dogecoinev.com:50001": {
+          "contact": [
+            {
+              "discord": "1157581316175437884"
+            }
+          ]
+        }
+      },
       "api.dogecoinev.com:50001": {
-        "1758502268": "online"
+        "1758502268": "online",
+        "1764982640": "offline"
       },
       "api.dogecoinev.com:50002": {
         "1758502268": "online"
@@ -3833,12 +3847,18 @@
         "electrum1.kiirocoin.org:50004": {
           "contact": [
             {
+              "discord": "1061740404439007403"
+            },
+            {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
           ]
         },
         "electrum2.kiirocoin.org:50004": {
           "contact": [
+            {
+              "discord": "1061740404439007403"
+            },
             {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
@@ -3860,14 +3880,16 @@
       },
       "electrum1.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1756167205": "online"
+        "1756167205": "online",
+        "1764982640": "offline"
       },
       "electrum2.kiirocoin.org:50002": {
         "1755770395": "online"
       },
       "electrum2.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1755987838": "online"
+        "1755987838": "online",
+        "1764982640": "offline"
       },
       "electrum3.kiirocoin.org:50002": {
         "1755770395": "online"
@@ -4374,7 +4396,8 @@
       "https://pol3.cipig.net:18755": {
         "1755770395": "online",
         "1757600932": "offline",
-        "1760163826": "online"
+        "1760163826": "online",
+        "1764982640": "offline"
       },
       "https://polygon-bor-rpc.publicnode.com": {
         "1755770395": "online"
@@ -4618,14 +4641,16 @@
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1764982640": "offline"
       },
       "meowelectrum.xyz:50004": {
         "1755770395": "online",
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1764982640": "offline"
       }
     }
   },
@@ -4679,7 +4704,8 @@
       },
       "https://moonriver.drpc.org": {
         "1763783058": "online",
-        "1764337728": "offline"
+        "1764337728": "offline",
+        "1764982640": "online"
       },
       "https://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -4700,7 +4726,8 @@
       },
       "wss://moonriver.drpc.org": {
         "1763783058": "online",
-        "1764337728": "offline"
+        "1764337728": "offline",
+        "1764982640": "online"
       },
       "wss://moonriver.unitedbloc.com": {
         "1755770395": "online",
@@ -5470,6 +5497,27 @@
     },
     "by_server": {
       "_metadata": {
+        "electrum.pepe.tips:50001": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
+        "electrum.pepe.tips:50002": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
+        "electrum.pepe.tips:50004": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
         "electrum.pepelum.site:50001": {
           "contact": [
             {
@@ -5493,13 +5541,16 @@
         }
       },
       "electrum.pepe.tips:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrum.pepe.tips:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrum.pepe.tips:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrum.pepeblocks.com:50001": {
         "1755770395": "online"
@@ -5587,15 +5638,18 @@
       },
       "electrum02.chainster.org:50001": {
         "1755770395": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1764982640": "offline"
       },
       "electrum02.chainster.org:50002": {
         "1755770395": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1764982640": "offline"
       },
       "electrum02.chainster.org:50003": {
         "1755770395": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1764982640": "offline"
       }
     }
   },
@@ -5969,17 +6023,20 @@
       "electrum3.runebase.io:50001": {
         "1755770395": "online",
         "1756519454": "offline",
-        "1757600932": "online"
+        "1757600932": "online",
+        "1764982640": "offline"
       },
       "electrum3.runebase.io:50002": {
         "1755770395": "online",
         "1756519454": "offline",
-        "1757600932": "online"
+        "1757600932": "online",
+        "1764982640": "offline"
       },
       "electrum3.runebase.io:50004": {
         "1755770395": "online",
         "1756519454": "offline",
-        "1757600932": "online"
+        "1757600932": "online",
+        "1764982640": "offline"
       },
       "electrum4.runebase.io:50001": {
         "1755770395": "offline"
@@ -6195,14 +6252,33 @@
   },
   "THC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1764982640": "offline"
     },
     "by_server": {
       "1.eu.thc.electrum.dexstats.info:10020": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "2.eu.thc.electrum.dexstats.info:10020": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
+      },
+      "_metadata": {
+        "1.eu.thc.electrum.dexstats.info:10020": {
+          "contact": [
+            {
+              "discord": "CHMEX#0686"
+            }
+          ]
+        },
+        "2.eu.thc.electrum.dexstats.info:10020": {
+          "contact": [
+            {
+              "discord": "CHMEX#0686"
+            }
+          ]
+        }
       }
     }
   },
@@ -6395,7 +6471,8 @@
     "all": {},
     "by_server": {
       "https://pyrus2.ubiqscan.io": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "https://rpc.octano.dev": {
         "1755770395": "offline"
@@ -6694,7 +6771,8 @@
         "1755770395": "offline",
         "1760919297": "online",
         "1761579168": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1764982640": "offline"
       }
     }
   },
@@ -6706,14 +6784,40 @@
       "159.69.73.223:5028": {
         "1755770395": "online"
       },
+      "_metadata": {
+        "electrumx-vtc.cryptoverted.com:55001": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55002": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55004": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        }
+      },
       "electrumx-vtc.cryptoverted.com:55001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx.javerity.com:5885": {
         "1755770395": "online"
@@ -6734,14 +6838,40 @@
       "159.69.73.223:5028": {
         "1755770395": "online"
       },
+      "_metadata": {
+        "electrumx-vtc.cryptoverted.com:55001": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55002": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55004": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        }
+      },
       "electrumx-vtc.cryptoverted.com:55001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1764982640": "offline"
       },
       "electrumx.javerity.com:5885": {
         "1755770395": "online"
