@@ -5,6 +5,27 @@
     },
     "by_server": {
       "_metadata": {
+        "aby-ex-four.ewmci.online:50011": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "aby-ex-four.ewmci.online:50012": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
+        "aby-ex-four.ewmci.online:50013": {
+          "contact": [
+            {
+              "discord": "475820011634819072"
+            }
+          ]
+        },
         "aby-ex-three.ewmci.online:50001": {
           "contact": [
             {
@@ -28,23 +49,28 @@
         }
       },
       "aby-ex-four.ewmci.online:50011": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "aby-ex-four.ewmci.online:50012": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "aby-ex-four.ewmci.online:50013": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "aby-ex-three.ewmci.online:50001": {
         "1755770395": "online",
         "1762013934": "offline",
-        "1763079262": "online"
+        "1763079262": "online",
+        "1765587357": "offline"
       },
       "aby-ex-three.ewmci.online:50002": {
         "1755770395": "online",
         "1762013934": "offline",
-        "1763079262": "online"
+        "1763079262": "online",
+        "1765587357": "offline"
       },
       "aby-ex-three.ewmci.online:50003": {
         "1755770395": "offline"
@@ -922,36 +948,45 @@
   },
   "BKC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1765587357": "offline"
     },
     "by_server": {
       "electrumx1.briskcoin.org:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx1.briskcoin.org:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx1.briskcoin.org:50003": {
         "1755770395": "online",
         "1758289389": "offline"
       },
       "electrumx2.briskcoin.org:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx2.briskcoin.org:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx2.briskcoin.org:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx3.briskcoin.org:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx3.briskcoin.org:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx3.briskcoin.org:50003": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       }
     }
   },
@@ -1033,7 +1068,8 @@
         "1755770395": "online"
       },
       "https://bsc2.cipig.net:18655": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "https://bsc3.cipig.net:18655": {
         "1755770395": "online"
@@ -1045,7 +1081,8 @@
         "1755770395": "online"
       },
       "wss://bsc2.cipig.net:38655": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "wss://bsc3.cipig.net:38655": {
         "1755770395": "online"
@@ -1119,13 +1156,16 @@
     },
     "by_server": {
       "bsty-main.coinmunity.gold:50011": {
-        "1761086724": "online"
+        "1761086724": "online",
+        "1765587357": "offline"
       },
       "bsty-main.coinmunity.gold:50012": {
-        "1761086724": "online"
+        "1761086724": "online",
+        "1765587357": "offline"
       },
       "bsty-main.coinmunity.gold:50013": {
-        "1761086724": "online"
+        "1761086724": "online",
+        "1765587357": "offline"
       },
       "electrumserver01.globalboost.info:50011": {
         "1755770395": "offline",
@@ -1271,13 +1311,15 @@
         "1755770395": "offline",
         "1757895281": "online",
         "1760706938": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1765587357": "offline"
       },
       "electrum1.btcz.rocks:50004": {
         "1755770395": "offline",
         "1757895281": "online",
         "1760706938": "offline",
-        "1762013934": "online"
+        "1762013934": "online",
+        "1765587357": "offline"
       },
       "electrum2.btcz.rocks:50001": {
         "1755770395": "online",
@@ -1803,8 +1845,18 @@
       "1758502268": "online"
     },
     "by_server": {
+      "_metadata": {
+        "api.dogecoinev.com:50001": {
+          "contact": [
+            {
+              "discord": "1157581316175437884"
+            }
+          ]
+        }
+      },
       "api.dogecoinev.com:50001": {
-        "1758502268": "online"
+        "1758502268": "online",
+        "1765587357": "offline"
       },
       "api.dogecoinev.com:50002": {
         "1758502268": "online"
@@ -1915,10 +1967,12 @@
         "1755770395": "offline"
       },
       "electrumx.dgc.ewmcx.org:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx.dgc.ewmcx.org:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx.dgc.ewmcx.org:50003": {
         "1755770395": "offline"
@@ -1926,12 +1980,14 @@
       "failover.dgc.ewmcx.biz:50002": {
         "1755770395": "online",
         "1757307678": "offline",
-        "1757463228": "online"
+        "1757463228": "online",
+        "1765587357": "offline"
       },
       "failover.dgc.ewmcx.biz:50003": {
         "1755770395": "online",
         "1757307678": "offline",
-        "1757463228": "online"
+        "1757463228": "online",
+        "1765587357": "offline"
       }
     }
   },
@@ -2282,6 +2338,22 @@
     },
     "by_server": {
       "_metadata": {
+        "big-parrot-60.doi.works:50002": {
+          "contact": [
+            {
+              "github": "https://github.com/doichain/electrum-doi/issues",
+              "twitter": "doichain"
+            }
+          ]
+        },
+        "big-parrot-60.doi.works:50004": {
+          "contact": [
+            {
+              "github": "https://github.com/doichain/electrum-doi/issues",
+              "twitter": "doichain"
+            }
+          ]
+        },
         "pink-deer-69.doi.works:50001": {
           "contact": [
             {
@@ -2308,10 +2380,12 @@
         }
       },
       "big-parrot-60.doi.works:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "big-parrot-60.doi.works:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "itchy-jellyfish-89.doi.works:50002": {
         "1755770395": "online"
@@ -3833,12 +3907,18 @@
         "electrum1.kiirocoin.org:50004": {
           "contact": [
             {
+              "discord": "1061740404439007403"
+            },
+            {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
           ]
         },
         "electrum2.kiirocoin.org:50004": {
           "contact": [
+            {
+              "discord": "1061740404439007403"
+            },
             {
               "github": "https://github.com/kiirocoin/electrum-kiiro/issues"
             }
@@ -3860,14 +3940,16 @@
       },
       "electrum1.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1756167205": "online"
+        "1756167205": "online",
+        "1765587357": "offline"
       },
       "electrum2.kiirocoin.org:50002": {
         "1755770395": "online"
       },
       "electrum2.kiirocoin.org:50004": {
         "1755770395": "offline",
-        "1755987838": "online"
+        "1755987838": "online",
+        "1765587357": "offline"
       },
       "electrum3.kiirocoin.org:50002": {
         "1755770395": "online"
@@ -4618,14 +4700,16 @@
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587357": "offline"
       },
       "meowelectrum.xyz:50004": {
         "1755770395": "online",
         "1760706938": "offline",
         "1762474464": "online",
         "1763079262": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587357": "offline"
       }
     }
   },
@@ -5470,6 +5554,27 @@
     },
     "by_server": {
       "_metadata": {
+        "electrum.pepe.tips:50001": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
+        "electrum.pepe.tips:50002": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
+        "electrum.pepe.tips:50004": {
+          "contact": [
+            {
+              "discord": "squidicuz"
+            }
+          ]
+        },
         "electrum.pepelum.site:50001": {
           "contact": [
             {
@@ -5493,13 +5598,16 @@
         }
       },
       "electrum.pepe.tips:50001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrum.pepe.tips:50002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrum.pepe.tips:50004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrum.pepeblocks.com:50001": {
         "1755770395": "online"
@@ -6195,14 +6303,33 @@
   },
   "THC": {
     "all": {
-      "1755770395": "online"
+      "1755770395": "online",
+      "1765587357": "offline"
     },
     "by_server": {
       "1.eu.thc.electrum.dexstats.info:10020": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "2.eu.thc.electrum.dexstats.info:10020": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
+      },
+      "_metadata": {
+        "1.eu.thc.electrum.dexstats.info:10020": {
+          "contact": [
+            {
+              "discord": "CHMEX#0686"
+            }
+          ]
+        },
+        "2.eu.thc.electrum.dexstats.info:10020": {
+          "contact": [
+            {
+              "discord": "CHMEX#0686"
+            }
+          ]
+        }
       }
     }
   },
@@ -6395,7 +6522,8 @@
     "all": {},
     "by_server": {
       "https://pyrus2.ubiqscan.io": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "https://rpc.octano.dev": {
         "1755770395": "offline"
@@ -6694,7 +6822,8 @@
         "1755770395": "offline",
         "1760919297": "online",
         "1761579168": "offline",
-        "1763165598": "online"
+        "1763165598": "online",
+        "1765587357": "offline"
       }
     }
   },
@@ -6706,14 +6835,40 @@
       "159.69.73.223:5028": {
         "1755770395": "online"
       },
+      "_metadata": {
+        "electrumx-vtc.cryptoverted.com:55001": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55002": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55004": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        }
+      },
       "electrumx-vtc.cryptoverted.com:55001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx.javerity.com:5885": {
         "1755770395": "online"
@@ -6734,14 +6889,40 @@
       "159.69.73.223:5028": {
         "1755770395": "online"
       },
+      "_metadata": {
+        "electrumx-vtc.cryptoverted.com:55001": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55002": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        },
+        "electrumx-vtc.cryptoverted.com:55004": {
+          "contact": [
+            {
+              "discord": "alviemahmud"
+            }
+          ]
+        }
+      },
       "electrumx-vtc.cryptoverted.com:55001": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55002": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx-vtc.cryptoverted.com:55004": {
-        "1755770395": "online"
+        "1755770395": "online",
+        "1765587357": "offline"
       },
       "electrumx.javerity.com:5885": {
         "1755770395": "online"
@@ -6991,21 +7172,24 @@
         "1763079262": "offline",
         "1763165598": "online",
         "1764031001": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587357": "offline"
       },
       "electrumx1.vanillacash.info:50012": {
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
         "1764031001": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587357": "offline"
       },
       "electrumx1.vanillacash.info:50013": {
         "1755770395": "online",
         "1763079262": "offline",
         "1763165598": "online",
         "1764031001": "offline",
-        "1764312754": "online"
+        "1764312754": "online",
+        "1765587357": "offline"
       },
       "electrumx2.vanillacash.info:50011": {
         "1755770395": "online"
